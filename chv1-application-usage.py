@@ -7,10 +7,11 @@ import numpy as np
 import loggingconfig
 import re
 from datetime import datetime
+from threading import Thread
 
 logger = loggingconfig.getLogger("CLOUDHUB-V1-APP-USAGE", True)
 
-def iterateOverEnvironment(config, environments, report, apiUsageReport, appUsage):
+def iterateOverEnvironment(config, environments, appUsage):
     for env in environments:
         envName = env.get('Name')
         logger.info(f"Organisation=> {config['org']} Environment => {envName}")
@@ -19,10 +20,10 @@ def iterateOverEnvironment(config, environments, report, apiUsageReport, appUsag
 
         apps = chmanageapp.lisAppsV2(config)
         for app in apps:
-            appName = app['domain']
-            fullDomain = app['fullDomain']
-            domain = app['domain']
-            numberOfWorker = app['workers']
+            appName = app.get('domain')
+            fullDomain = app.get('fullDomain')
+            domain = app.get('domain')
+            numberOfWorker = app.get('workers')
             key = app['workerType'].upper()
             totalVCores = comlib.CLOUDHUB_V1_WORKER_TYPE[key] * numberOfWorker
             usage = chmanageapp.getMuleMessageCount(config, fullDomain)
@@ -32,13 +33,22 @@ def iterateOverEnvironment(config, environments, report, apiUsageReport, appUsag
             
 
 def iterateOverOrganisation(config, bgs, appUsage):
+    threads = []
     for bg in bgs:
-        orgName = bg.get('Name')
-        logger.info(f"Business Group: {orgName}")
-        config['org'] = bg.get('Name')
-        config['orgId'] = bg.get('Id')
-        environments = accessmanagement.listEnvironments(config)
-        iterateOverEnvironment(config, environments, appUsage)
+        thread = Thread(target=task, args=(config, bg, appUsage))
+        threads.append(thread)
+        thread.start()
+    for thread in threads:
+        thread.join()
+
+def task(config, bg, appUsage):
+    newConfig = config.copy()
+    orgName = bg.get('Name')
+    logger.info(f"Business Group: {orgName}")
+    newConfig['org'] = bg.get('Name')
+    newConfig['orgId'] = bg.get('Id')
+    environments = accessmanagement.listEnvironments(newConfig)
+    iterateOverEnvironment(newConfig, environments, appUsage)
 
 
 def main():
@@ -54,7 +64,6 @@ def main():
     logger.info("Ending ...")
 
     return 0
-
 
 try:
     exit(main())

@@ -7,6 +7,7 @@ import numpy as np
 import loggingconfig
 import re
 from datetime import datetime
+from threading import Thread
 
 logger = loggingconfig.getLogger("API-USAGE-MINTOR", True)
 
@@ -22,26 +23,15 @@ def validateAndCollectAPILevelMetrics(config, apis, report):
         for policy in policies:
             logger.debug(f"Policy Id: {policy.get('Asset ID')}")
 
-            policyId = policy.get('ID')
             policyTemplateId = policy.get('Template ID')
             policyName = policy.get('Asset ID')
             policyStatus = policy.get('Status')
-            policyversion = policy.get('Asset Version')
-            skipClientIdValidation = False
-            jwtKeyOrigin = False
-            mandatoryExpClaim = False
             wksUrl = False
 
             # jwt-policy-validation
             configuration = policy.get('Configuration')
             if policy.get('Asset ID') == 'jwt-validation':
                 if len(configuration) > 0:
-                    if 'skipClientIdValidation: false' in configuration:
-                        skipClientIdValidation = True
-                    if 'jwtKeyOrigin: jwks' in configuration:
-                        jwtKeyOrigin = True
-                    if 'mandatoryExpClaim: true' in configuration:
-                        mandatoryExpClaim = True
                     m = re.search("wksUrl:[ ]?([^ ]+)", configuration)
                     if m != None and len(m.groups()) >= 1:
                         wksUrl = m.group(1)
@@ -52,7 +42,6 @@ def validateAndCollectAPILevelMetrics(config, apis, report):
                 config['templateId'] = policyTemplateId
                 policyDetails = apimanager.policyDetails(config)
                 policyName = policyDetails.get('Name')
-                policyCategory = policyDetails.get('Category')
                 logger.debug(f"Policy Details: {policyName}")
 
             report.append([ config['org'], config['env'], apiName, apiInstanceId, policyName, "NA", "NA", "NA","NA", policyStatus])
@@ -88,13 +77,23 @@ def iterateOverEnvironment(config, environments, report):
 
 
 def iterateOverOrganisation(config, bgs, report):
+    threads = []
     for bg in bgs:
-        orgName = bg.get('Name')
-        logger.info(f"Business Group: {orgName}")
-        config['org'] = bg.get('Name')
-        config['orgId'] = bg.get('Id')
-        environments = accessmanagement.listEnvironments(config)
-        iterateOverEnvironment(config, environments, report)
+        thread = Thread(target=orgTask, args=(config, bg, report))
+        threads.append(thread)
+        thread.start()
+    for thread in threads:
+        thread.join()
+
+
+def orgTask(config, bg, report):
+    newConfig = config.copy()
+    orgName = bg.get('Name')
+    logger.info(f"Business Group: {orgName}")
+    newConfig['org'] = bg.get('Name')
+    newConfig['orgId'] = bg.get('Id')
+    environments = accessmanagement.listEnvironments(newConfig)
+    iterateOverEnvironment(newConfig, environments, report)
 
 
 def main():
@@ -109,6 +108,8 @@ def main():
     csvhandler.writeApiValidationReport(config, report)
 
     logger.info("Ending ...")
+
+    return 0
 
 
 try:

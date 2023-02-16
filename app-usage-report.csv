@@ -1,0 +1,907 @@
+Organisation,Environment,Application,Status,vCore Usage,Last Updated,Mule Message in last 30 days
+C4E,eu-uat,bel-eu-c4e-helloworld-exp-v1-uat,UNDEPLOYED,0.1,2023-01-26 10:34:56.115000,0
+Autoglass UK,eu-test,bel-eu-uk-remedy-prc-v1-tst,STARTED,0.1,2023-01-24 19:57:27.431000,0
+Carglass DE,eu-prod,bel-eu-gbl-bosch-core-sys-v1-prd,STARTED,0.1,2023-01-28 15:27:40.777000,3137507
+Supply Chain,na-test,bel-na-gbl-supplier-data-prc-v1-tst,STARTED,0.1,2023-02-13 13:42:48.219000,30
+Finance,eu-prod,bel-eu-gbl-ic-invoice-coprc-sys-v1-prd,STARTED,0.2,2023-01-29 01:33:48.008000,0
+Obrien AU,apac-dev,net-tools-api-au-dev,STARTED,0.1,2023-01-25 17:09:03.172000,0
+Carglass DE,eu-prod,bel-eu-de-mdm-sys-v1-prd,STARTED,0.1,2023-01-28 15:45:14.860000,120
+C4E,eu-uat,bel-eu-c4e-helloworld-prc-v1-uat,UNDEPLOYED,0.1,2023-01-26 10:46:52.589000,0
+Autoglass UK,eu-test,bel-eu-uk-remedy-sys-v1-tst,STARTED,0.1,2023-01-24 20:13:48.329000,66
+Customer,na-prod,bel-na-gbl-aws-s3-sys-v1-prd,STARTED,0.1,2023-01-29 02:10:23.075000,4722549
+Supply Chain,na-test,bel-na-gbl-subscriber-supplier-prc-v1-tst,STARTED,0.1,2023-02-16 18:28:35.359000,1096
+Finance,eu-prod,bel-eu-gbl-ofcf-reference-data-sys-v1-prd,STARTED,0.2,2023-01-29 01:39:55.613000,206
+Carglass DE,eu-prod,bel-eu-de-mdm-prc-v1-prd,STARTED,0.1,2023-01-28 15:48:32.019000,146
+Autoglass UK,eu-test,bel-eu-uk-avaya-exp-v1-tst,STARTED,0.1,2023-01-24 20:17:17.868000,66
+C4E,eu-uat,bel-eu-gbl-event-publisher-exp-v1-uat,STARTED,0.1,2023-01-26 16:42:14.488000,1014
+Obrien AU,apac-dev,bel-apac-au-click-schedule-exp-v1-dev,STARTED,0.1,2023-01-25 17:32:17.904000,180
+Customer,na-prod,bel-na-gbl-entegral-sys-v1-prd,STARTED,0.1,2023-02-07 11:00:47.012000,24606
+Supply Chain,na-test,activemqdemo,STARTED,0.1,2023-01-23 14:42:37.112000,0
+Finance,eu-prod,bel-eu-gbl-fx-rate-refnv-sys-v1-prd,STARTED,0.2,2023-01-29 01:56:05.062000,414
+Carglass DE,eu-prod,bel-eu-de-calibration-job-sys-v1-prd,STARTED,0.1,2023-01-28 16:05:59.803000,38759
+Autoglass UK,eu-test,bel-eu-gbl-avaya-sys-v1-tst,STARTED,0.1,2023-01-24 20:39:02.264000,0
+Obrien AU,apac-dev,bel-apac-au-fsl-prc-v1-dev,STARTED,0.1,2023-02-10 09:12:42.499000,136
+HR,eu-prod,bel-eu-gbl-hr-employee-exp-v1-prd,STARTED,0.4,2023-02-09 17:20:38.258000,0
+Supply Chain,na-test,bel-na-gbl-purchase-orders-prc-v1-tst,STARTED,0.1,2023-01-31 06:16:47.038000,0
+Customer,na-prod,bel-na-gbl-entegral-prc-v1-prd,STARTED,0.1,2023-02-08 06:49:53.469000,30487
+Finance,eu-prod,bel-eu-gbl-concr-sys-v1-prd,STARTED,0.1,2023-01-31 07:12:30.118000,78
+Carglass DE,eu-prod,bel-eu-gbl-calibration-prc-v1-prd,STARTED,0.1,2023-01-26 20:10:30.266000,188323
+Obrien AU,apac-dev,bel-apac-au-scheduling-resource-prc-v1-dev,STARTED,0.1,2023-02-14 17:46:17.077000,127
+C4E,apac-test,bel-apac-c4e-helloworld-exp-v1-tst,STARTED,0.1,2023-01-25 20:27:33.711000,0
+HR,eu-prod,bel-eu-gbl-gmft-sys-v1-prd,STARTED,0.2,2023-01-28 14:41:02.004000,0
+Customer,na-prod,bel-na-gbl-entegral-exp-v1-prd,STARTED,0.1,2023-02-08 03:14:45.254000,24534
+Supply Chain,na-test,bel-na-gbl-org-inventory-ofcf-sys-v1-tst,STARTED,0.1,2023-01-23 15:06:48.371000,0
+Finance,eu-prod,bel-eu-gbl-bulk-import-ofcf-sys-v1-prd,STARTED,0.2,2023-01-29 02:09:25.462000,186
+Carglass DE,eu-prod,bel-eu-de-calibration-exp-v1-prd,STARTED,0.1,2023-01-28 16:25:09.781000,61804
+Obrien AU,apac-dev,bel-apac-au-mscrm-sys-v1-dev,STARTED,0.1,2023-02-10 17:28:11.095000,128
+C4E,apac-test,bel-apac-c4e-helloworld-prc-v1-tst,UNDEPLOYED,0.1,2023-01-25 20:29:34.161000,0
+HR,eu-prod,bel-eu-gbl-hr-payroll-prc-v1-prd,STARTED,0.4,2023-02-09 17:16:13.273000,0
+Supply Chain,na-test,bel-na-gbl-asn-validation-prc-v1-tst,STARTED,0.1,2023-02-13 06:51:23.726000,0
+Finance,eu-prod,bel-eu-gbl-bip-report-ofcf-sys-v1-prd,STARTED,0.2,2023-01-29 02:18:07.013000,240
+Obrien AU,apac-dev,bel-apac-au-taskupdate-prc-v1-dev,STARTED,0.1,2023-02-15 12:20:21.944000,130
+EWP,eu-dev,bel-eu-at-drp-sys-v1-dev,STARTED,0.1,2023-02-13 15:18:22.567000,4285
+C4E,apac-test,bel-apac-c4e-pipeline-test201-exp-v2-tst,STARTED,0.1,2023-01-26 03:37:26.734000,0
+Autoglass UK,eu-prod,bel-eu-uk-avaya-exp-v1-prd,STARTED,0.1,2023-01-29 06:12:23.258000,681336
+HR,eu-prod,bel-eu-gbl-hr-employee-sys-v1-prd,STARTED,0.2,2023-02-01 16:53:02.954000,0
+Supply Chain,na-test,bel-na-gbl-cycle-count-exp-v1-tst,UNDEPLOYED,0.1,2023-01-23 15:18:01.787000,0
+Finance,eu-prod,bel-eu-gbl-gl-ledger-prc-v1-prd,STARTED,0.2,2023-01-29 02:27:43.521000,42
+Customer,eu-dev,bel-eu-gbl-int-exp-v1-dev,STARTED,0.1,2023-01-24 05:06:39.057000,0
+EWP,eu-dev,bel-eu-gbl-product-prc-v1-dev,STARTED,0.1,2023-02-13 15:03:25.071000,3207
+Obrien AU,apac-dev,bel-apac-au-fsl-sys-v1-dev,STARTED,0.1,2023-02-15 12:19:10.162000,168
+Autoglass UK,eu-prod,bel-eu-uk-remedy-sys-v1-prd,STARTED,0.1,2023-01-29 06:25:59.231000,681430
+HR,eu-prod,bel-eu-gbl-hr-benefit-prc-v1-prd,STARTED,0.2,2023-01-28 15:18:31.668000,0
+Supply Chain,na-test,bel-na-gbl-physical-inventory-exp-v1-tst,UNDEPLOYED,0.1,2023-01-23 15:30:22.562000,0
+Customer,eu-dev,bel-eu-gbl-order-prc-v1-dev,STARTED,0.1,2023-02-15 15:17:38.222000,379
+Finance,eu-prod,bel-eu-gbl-gl-ledger-exp-v1-prd,STARTED,0.2,2023-01-29 02:45:26.633000,42
+EWP,eu-dev,bel-eu-gbl-account-prc-v1-dev,STARTED,0.1,2023-02-13 15:03:19.894000,1617
+Obrien AU,apac-dev,bel-apac-au-apt-event-publisher-exp-v1-dev,STARTED,0.1,2023-02-15 12:19:47.495000,130
+Autoglass UK,eu-prod,bel-eu-gbl-avaya-sys-v1-prd,STARTED,0.1,2023-01-29 06:34:06.632000,31208
+Carglass DE,eu-test,bel-eu-de-mdm-sys-v1-tst,STARTED,0.1,2023-02-08 12:31:12.015000,3272
+HR,eu-prod,bel-eu-gbl-hr-benefit-sys-v1-prd,STARTED,0.2,2023-01-28 15:29:08.721000,0
+Safelite US,na-test,safelite-connectivity-chtest-api,UNDEPLOYED,0.1,2023-01-26 09:12:07.527000,0
+Supply Chain,na-test,bel-na-gbl-physical-inventory-prc-v1-tst,UNDEPLOYED,0.1,2023-01-23 15:43:53.040000,0
+Finance,eu-prod,bel-eu-gbl-ic-invoice-prc-v1-prd,STARTED,0.1,2023-01-29 02:50:52.155000,30
+EWP,eu-dev,bel-eu-gbl-ewp-exp-v1-dev,STARTED,0.1,2023-02-16 12:51:37.877000,4857
+Obrien AU,apac-dev,bel-apac-au-click-sys-v1-dev,STARTED,0.1,2023-02-13 03:53:30.567000,154
+C4E,na-prod,bel-na-gbl-helloworld-exp-v1-prd,STARTED,0.1,2023-01-29 02:24:26.515000,22
+Autoglass UK,eu-prod,bel-eu-uk-remedy-prc-v1-prd,STARTED,0.1,2023-01-29 06:37:46.433000,31212
+HR,eu-prod,bel-eu-gbl-hr-tna-sys-v1-prd,STARTED,0.2,2023-01-28 15:42:12.798000,0
+Carglass DE,eu-test,bel-eu-de-mdm-prc-v1-tst,STARTED,0.1,2023-02-08 12:24:28.041000,11
+Safelite US,na-test,bel-na-sfl-servicechannel-sys-v1-tst,STARTED,0.1,2023-02-07 09:39:08.956000,12
+Supply Chain,na-test,bel-na-gbl-cycle-count-prc-v1-tst,UNDEPLOYED,0.1,2023-01-23 19:16:39.082000,0
+EWP,eu-dev,bel-eu-at-comm-bookingsummary-sys-v1-dev,UNDEPLOYED,0.1,2023-02-14 11:46:06.347000,0
+Obrien AU,apac-dev,bel-apac-au-google-maps-sys-v1-dev,STARTED,0.1,2023-02-12 19:28:42.389000,30
+Finance,eu-prod,bel-eu-gbl-gl-code-prc-v1-prd,STARTED,0.1,2023-01-29 02:57:13.916000,0
+C4E,na-prod,bel-na-gbl-helloworld-prc-v1-prd,STARTED,0.1,2023-01-29 02:31:09.586000,22
+HR,eu-prod,bel-eu-gbl-hr-tna-prc-v1-prd,STARTED,0.2,2023-02-13 15:00:05.608000,0
+Carglass DE,eu-test,bel-eu-gbl-bosch-core-sys-v1-tst,STARTED,0.1,2023-01-26 20:27:29.109000,9972
+Safelite US,na-test,bel-na-sfl-okta-sys-v1-tst,UNDEPLOYED,0.1,2023-01-26 12:13:20.177000,0
+Supply Chain,na-test,bel-na-gbl-supplier-ofcf-sys-v1-tst,STARTED,0.1,2023-02-09 12:03:44.029000,0
+Finance,eu-prod,bel-eu-gbl-fx-rate-prc-v1-prd,STARTED,0.1,2023-01-29 03:10:19.393000,30
+EWP,eu-dev,bel-eu-gbl-ewp-workorder-prc-v1-dev,STARTED,0.1,2023-02-15 12:38:37.532000,796
+C4E,na-prod,bel-na-gbl-helloworld-sys-v1-prd,STARTED,0.1,2023-01-29 02:41:13.373000,0
+Autoglass UK,eu-dev,bel-eu-uk-avaya-exp-v1-dev,STARTED,0.1,2023-01-24 19:25:55.973000,0
+Carglass DE,eu-test,bel-eu-gbl-calibration-prc-v1-tst,STARTED,0.1,2023-01-26 20:32:33.189000,267
+Safelite US,na-test,bel-na-sfl-eft-sys-v1-tst,STARTED,0.1,2023-01-26 12:27:57.941000,50
+Supply Chain,na-test,bel-na-gbl-purchase-order-ofcf-sys-v1-tst,STARTED,0.1,2023-02-08 16:02:58.492000,286
+Finance,eu-prod,bel-eu-gbl-expense-invoice-prc-v1-prd,STARTED,0.1,2023-01-29 03:18:23.606000,39
+EWP,eu-dev,bel-eu-gbl-awsses-sys-v1-dev,STARTED,0.1,2023-02-16 08:31:48.074000,912
+Obrien AU,apac-prod,bel-apac-au-click-sys-v1-prd,UNDEPLOYED,0.1,2023-02-16 08:29:09.709000,39
+C4E,na-prod,bel-na-c4e-imdm-motorist-exp-v1-prd,STARTED,0.1,2023-01-29 03:23:19.892000,0
+Carglass DE,eu-test,bel-eu-de-calibration-exp-v1-tst,STARTED,0.1,2023-01-26 20:40:15.240000,179
+Autoglass UK,eu-dev,bel-eu-uk-remedy-sys-v1-dev,STARTED,0.1,2023-01-24 19:42:29.547000,0
+Safelite US,na-test,bel-na-sfl-realestatefacility-exp-v1-tst,UNDEPLOYED,0.1,2023-01-26 12:31:19.770000,0
+Supply Chain,na-test,bel-na-gbl-asn-ofcf-sys-v1-tst,STARTED,0.1,2023-02-16 14:54:33.575000,102
+C4E,na-prod,bel-na-c4e-amazon-exp-v1-prd,STARTED,0.1,2023-01-29 03:39:42.064000,0
+Obrien AU,apac-prod,bel-apac-au-helloworld-exp-v1-prd,STARTED,0.1,2023-02-14 17:13:38.116000,0
+Safelite US,na-test,bel-na-sfl-realestatefacility-prc-v1-tst,STARTED,0.1,2023-01-26 12:48:51.454000,0
+Supply Chain,na-test,bel-na-gbl-aslbpa-prc-v1-tst,STARTED,0.1,2023-01-23 20:18:16.933000,0
+C4E,na-prod,bel-na-c4e-pipeline-test-exp-prd,UNDEPLOYED,0.1,2023-01-29 03:50:12.140000,0
+Safelite US,na-test,bel-na-sfl-batcheft-exp-v1-tst,STARTED,0.1,2023-01-26 12:58:51.607000,30
+EWP,eu-dev,bel-eu-gbl-ewp-notification-sys-v1-dev,STARTED,0.1,2023-02-15 12:49:57.796000,412
+Supply Chain,na-test,bel-na-gbl-location-ofcf-sys-v1-tst,STARTED,0.1,2023-02-14 05:16:47.099000,20
+Carglass DE,eu-test,bel-eu-de-calibration-job-sys-v1-tst,STARTED,0.1,2023-01-26 20:55:14.435000,0
+Obrien AU,apac-prod,bel-apac-au-google-maps-sys-v1-prd,STARTED,0.1,2023-02-13 02:15:35.416000,20
+Autoglass UK,eu-dev,bel-eu-uk-remedy-prc-v1-dev,STARTED,0.1,2023-01-24 19:49:22.344000,38
+Customer,apac-dev,bel-apac-gbl-sfdc-motorist-sys-v01-dev,UNDEPLOYED,0.1,2023-01-24 23:01:01.897000,0
+C4E,na-prod,bel-na-gbl-net-tools-exp-v1-prd,STARTED,0.1,2023-01-29 04:12:45.865000,0
+Safelite US,na-test,bel-na-sfl-safelitebatch-exp-v1-tst,STARTED,0.1,2023-02-15 07:14:30.496000,6535
+HR,na-dev,bel-na-gbl-gmft-sys-v1-dev,STARTED,0.1,2023-01-27 03:37:59.930000,11583
+Carglass DE,eu-test,workdayemailupdateprod,UNDEPLOYED,0.1,2023-01-26 20:55:17.747000,0
+Supply Chain,na-test,bel-na-gbl-worker-ofcf-sys-v1-tst,STARTED,0.1,2023-01-23 20:46:20.201000,0
+Autoglass UK,eu-dev,bel-eu-gbl-avaya-sys-v1-dev,STARTED,0.1,2023-01-24 20:38:16.565000,0
+Obrien AU,apac-prod,bel-apac-au-scheduling-resource-prc-v1-prd,STARTED,0.1,2023-02-14 18:24:13.055000,232
+C4E,na-prod,bel-na-c4e-pipeline-test2-exp-v1-prd,STARTED,0.1,2023-01-29 04:23:07.690000,0
+Safelite US,na-test,bel-na-sfl-oms-prc-v1-tst,UNDEPLOYED,0.8,2023-01-26 15:02:13.964000,0
+Supply Chain,na-test,bel-na-gbl-supplier-asn-prc-v1-tst,STARTED,0.1,2023-02-15 08:55:25.495000,96
+Carglass DE,eu-test,bel-eu-de-buejo-sys-v1-tst,STARTED,0.1,2023-02-15 11:20:38.105000,6872
+Obrien AU,apac-prod,bel-apac-au-apt-event-publisher-exp-v1-prd,STARTED,0.1,2023-02-15 17:34:33.921000,512
+C4E,na-prod,bel-na-c4e-demo-pipeline101-exp-v1-prd,STARTED,0.1,2023-01-29 04:38:49.113000,0
+Safelite US,na-test,bel-na-sfl-oms-sys-v1-tst,UNDEPLOYED,1.0,2023-01-26 15:16:41.238000,0
+Finance,na-dev,bel-na-gbl-bulk-import-ofcf-sys-v1-dev,UNDEPLOYED,0.1,2023-01-25 05:41:21.409000,0
+HR,na-prod,bel-na-gbl-gmft-sys-v1-prd,STARTED,0.1,2023-01-28 20:07:45.386000,0
+Supply Chain,na-test,bel-na-gbl-replenish-po-prc-v1-tst,STARTED,0.1,2023-02-14 05:52:56.043000,3
+Carglass DE,eu-test,bel-eu-gbl-asn-prc-v1-tst,STARTED,0.1,2023-02-15 10:50:52.095000,3560619
+Obrien AU,apac-prod,bel-apac-au-fsl-prc-v1-prd,STARTED,0.1,2023-02-10 17:13:28.707000,136
+C4E,na-prod,bel-na-c4e-pipeline-test-exp-v1-prd,UNDEPLOYED,0.1,2023-01-29 05:47:25.033000,0
+Safelite US,na-test,bel-na-sfl-transferorders-prc-v1-tst,STARTED,0.4,2023-02-16 13:52:31.529000,276
+Finance,na-dev,bel-na-gbl-bip-report-ofcf-sys-v2-dev,STARTED,0.1,2023-02-09 13:40:23.989000,212
+Carglass DE,eu-test,bel-eu-de-oracle-ebs-sys-v1-tst,STARTED,0.1,2023-02-15 10:54:55.798000,1835887
+Obrien AU,apac-prod,bel-apac-au-fsl-sys-v1-prd,STARTED,0.1,2023-02-15 16:02:08.548000,158
+C4E,na-prod,bel-na-c4e-fsl-techassigned-prc-v1-prd,UNDEPLOYED,0.1,2023-01-29 06:00:45.507000,0
+Safelite US,na-test,bel-na-sfl-salesorder-prc-v1-tst,STARTED,0.4,2023-01-26 15:42:27.177000,0
+Finance,na-dev,bel-na-gbl-coa-extract-prc-v1-dev,STARTED,0.1,2023-02-06 10:57:19.071000,0
+Obrien AU,apac-prod,bel-apac-au-taskupdate-prc-v1-prd,STARTED,0.1,2023-02-15 15:17:03.893000,0
+C4E,na-prod,bel-na-sfl-fsl-techassignment-prc-v1-prd,UNDEPLOYED,0.1,2023-01-29 06:02:17.718000,0
+Safelite US,na-test,bel-na-sfl-purchaseorder-prc-v1-tst,STARTED,0.2,2023-01-26 15:56:15.746000,135
+Finance,na-dev,bel-na-gbl-ap-invoice-prc-v1-dev,STARTED,0.1,2023-02-15 16:01:59.563000,738
+C4E,na-prod,bel-na-c4e-pipeline-test1-exp-prd,UNDEPLOYED,0.1,2023-01-29 06:22:14.556000,0
+Obrien AU,apac-prod,bel-apac-au-mscrm-sys-v1-prd,STARTED,0.1,2023-02-15 12:04:47.110000,0
+Safelite US,na-test,bel-na-sfl-sqs-sys-v1-tst,STARTED,0.4,2023-01-26 16:01:41.554000,65134
+Carglass DE,eu-dev,network-connectivity-test-api,UNDEPLOYED,0.1,2023-01-26 18:14:35.245000,0
+Finance,na-dev,bel-na-gbl-bulk-import-ofcf-sys-v2-dev,STARTED,0.1,2023-02-15 12:09:39.099000,1195
+C4E,na-prod,bel-na-c4e-pipeline-test1-exp-v1-prd,STARTED,0.1,2023-01-29 06:38:36.166000,0
+HR,eu-dev,bel-eu-gbl-hr-employee-exp-v1-dev,STARTED,0.1,2023-01-26 23:26:25.111000,747
+Obrien AU,apac-prod,bel-apac-au-hellomigration-exp-v1-prd,STARTED,0.1,2023-02-16 08:19:18.575000,2
+Carglass DE,eu-dev,bel-eu-de-proxytest-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 18:26:13.622000,0
+Safelite US,na-test,bel-na-sfl-shipment-prc-v1-tst,STARTED,0.4,2023-02-08 10:35:51.675000,51780
+Finance,na-dev,tango-poc-dev,UNDEPLOYED,0.1,2023-01-25 07:07:53.830000,0
+HR,eu-dev,bel-eu-gbl-gmft-sys-v1-dev,STARTED,0.1,2023-01-26 23:33:31.525000,0
+C4E,na-prod,bel-na-c4e-imdm-product-exp-v1-prd,STARTED,0.1,2023-01-29 07:02:31.613000,0
+Carglass DE,eu-dev,bel-eu-de-templatetest-prc-v1-dev,UNDEPLOYED,0.1,2023-01-26 18:40:54.959000,0
+Safelite US,na-test,bel-na-sfl-highjump-sys-v1-tst,STARTED,0.4,2023-02-16 13:48:30.396000,12064
+Finance,na-dev,bel-na-gbl-ap-remittance-prc-v1-dev,STARTED,0.1,2023-02-16 09:49:30.963000,197
+HR,eu-dev,bel-eu-gbl-hr-employee-sys-v1-dev,STARTED,0.1,2023-01-16 14:52:40.598000,39
+C4E,na-prod,bel-na-c4e-hello-world-1234-exp-v1-prd,STARTED,0.1,2023-01-29 07:15:53.099000,0
+Safelite US,na-test,bel-na-sfl-origami-sys-v1-tst,STARTED,0.1,2023-01-26 17:26:40.264000,0
+Carglass DE,eu-dev,bel-eu-de-mdm-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 18:48:15.909000,0
+Finance,na-dev,bel-na-gbl-subscriber-coa-prc-v1-dev,UNDEPLOYED,0.1,2023-02-13 07:28:14.964000,0
+Customer,na-test,bel-na-gbl-int-exp-v1-tst,STARTED,0.1,2023-01-24 10:54:56.830000,0
+Obrien AU,apac-test,bel-apac-au-click-sys-v1-tst,UNDEPLOYED,0.1,2023-02-15 10:14:57.766000,30790
+HR,eu-dev,bel-eu-gbl-hr-tna-sys-v1-dev,STARTED,0.1,2023-02-14 10:47:17.372000,80175
+C4E,na-prod,bel-na-c4e-imdm-location-sys-v1-prd,STARTED,0.1,2023-02-08 14:07:15.185000,410
+Carglass DE,eu-dev,bel-eu-gbl-bosch-core-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 19:02:35.282000,0
+Safelite US,na-test,bel-na-sfl-alight-sys-v1-tst,UNDEPLOYED,0.1,2023-01-26 17:35:44.637000,0
+Finance,na-dev,bel-na-gbl-ofcf-reference-data-sys-v1-dev,STARTED,0.1,2023-02-02 07:37:12.070000,520
+Customer,na-test,bel-na-gbl-sfdc-shifts-sys-v1-tst,UNDEPLOYED,0.1,2023-01-24 11:04:53.689000,0
+Supply Chain,na-dev,bel-na-gbl-supplier-data-prc-v1-dev,STARTED,0.1,2023-02-13 12:00:55.628000,1
+Obrien AU,apac-test,bel-apac-au-scheduling-resource-prc-v1-tst,STARTED,0.1,2023-02-14 18:13:16.699000,68794
+HR,eu-dev,bel-eu-gbl-hr-tna-prc-v1-dev,STARTED,0.1,2023-02-15 10:47:52.376000,27978
+Carglass DE,eu-dev,bel-eu-de-mdm-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 19:06:13.779000,0
+Safelite US,na-test,bel-na-sfl-biww-sys-v1-tst,STARTED,0.1,2023-01-26 17:48:18.309000,0
+Finance,na-dev,bel-na-gbl-bip-report-ofcf-sys-v1-dev,UNDEPLOYED,0.1,2023-01-25 07:54:04.010000,0
+Customer,na-test,bel-na-gbl-sfdc-eventbus-sys-v1-tst,UNDEPLOYED,0.1,2023-01-24 11:56:54.115000,0
+Supply Chain,na-dev,bel-na-gbl-org-inventory-ofcf-sys-v1-dev,STARTED,0.1,2023-01-23 10:35:38.128000,0
+Obrien AU,apac-test,bel-apac-au-apt-event-publisher-exp-v1-tst,STARTED,0.1,2023-02-15 15:30:56.343000,33210
+Carglass DE,eu-dev,bel-eu-gbl-bosch-core-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 19:20:57.867000,0
+HR,eu-dev,bel-eu-gbl-hr-benefit-sys-v1-dev,STARTED,0.1,2023-01-27 00:19:57.590000,0
+Safelite US,na-test,bel-na-sfl-adp-sys-v1-tst,UNDEPLOYED,0.1,2023-01-26 17:58:42.275000,0
+Finance,na-dev,bel-na-gbl-ar-receipts-prc-v1-dev,STARTED,0.1,2023-02-15 08:38:25.845000,105
+Supply Chain,na-dev,bel-na-gbl-cycle-count-prc-v1-dev,UNDEPLOYED,0.1,2023-01-23 10:46:43.861000,0
+Customer,na-test,bel-na-gbl-subscriber-products-prc-v1-tst,UNDEPLOYED,0.1,2023-01-24 12:18:05.963000,0
+Obrien AU,apac-test,bel-apac-au-fsl-sys-v1-tst,STARTED,0.1,2023-02-15 15:36:59.055000,50339
+HR,eu-dev,bel-eu-gbl-hr-benefit-prc-v1-dev,STARTED,0.1,2023-01-27 00:27:48.756000,0
+C4E,eu-dev,belron-first-sapi-eu-dev,UNDEPLOYED,0.1,2023-01-26 01:06:23.911000,0
+Carglass DE,eu-dev,bel-eu-de-calibration-mock-sys-v1-dev,STARTED,0.1,2023-01-26 19:33:06.455000,0
+Safelite US,na-test,bel-na-sfl-employee-prc-v1-tst,STARTED,0.2,2023-02-15 07:15:01.856000,0
+Finance,na-dev,bel-na-gbl-ar-invoice-prc-v1-dev,STARTED,0.1,2023-02-13 11:04:12.104000,29
+Supply Chain,na-dev,bel-na-gbl-physical-inventory-prc-v1-dev,UNDEPLOYED,0.1,2023-01-23 10:52:45.758000,0
+Obrien AU,apac-test,bel-apac-au-fsl-prc-v1-tst,STARTED,0.1,2023-02-10 09:34:22.507000,35822
+Customer,na-test,bel-na-gbl-subscriber-locations-prc-v1-tst,UNDEPLOYED,0.1,2023-01-24 12:22:42.253000,0
+HR,eu-dev,bel-eu-gbl-ftps-sys-v1-dev,STARTED,0.1,2023-01-27 00:37:25.442000,0
+Carglass DE,eu-dev,bel-eu-de-mdm-prc-v1-dev,UNDEPLOYED,0.1,2023-01-26 19:38:12.054000,0
+C4E,eu-dev,belron-first-xapi-eu-dev,UNDEPLOYED,0.1,2023-01-26 01:25:52.957000,0
+Safelite US,na-test,bel-na-sfl-vanguard-sys-v1-tst,UNDEPLOYED,0.1,2023-01-26 18:18:41.124000,0
+Finance,na-dev,bel-na-gbl-collection-notes-prc-v1-dev,STARTED,0.1,2023-01-25 09:39:18.079000,0
+Supply Chain,na-dev,bel-na-gbl-physical-inventory-exp-v1-dev,UNDEPLOYED,0.1,2023-01-23 11:04:51.828000,0
+Obrien AU,apac-test,bel-apac-au-click-schedule-exp-v1-tst,STARTED,0.1,2023-02-14 11:46:18.239000,94
+Customer,na-test,bel-na-gbl-int-exp-v3-tst,STARTED,0.1,2023-01-24 12:53:44.685000,0
+C4E,eu-dev,bel-eu-gbl-helloworld-exp-v1-dev,STARTED,0.1,2023-01-26 02:03:20.136000,0
+HR,eu-dev,bel-eu-gbl-hr-payroll-prc-v1-dev,STARTED,0.1,2023-02-14 11:29:23.816000,1042
+Carglass DE,eu-dev,bel-eu-de-calibration-job-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 19:43:10.632000,0
+Safelite US,na-test,bel-na-sfl-imagewear-sys-v1-tst,STARTED,0.1,2023-01-26 18:35:23.823000,0
+Finance,na-dev,bel-na-gbl-open-ar-prc-v1-dev,STARTED,0.1,2023-01-25 09:48:55.776000,0
+Supply Chain,na-dev,bel-na-gbl-subscriber-supplier-prc-v1-dev,STARTED,0.1,2023-02-15 15:42:16.106000,253
+Obrien AU,apac-test,bel-apac-au-mscrm-sys-v1-tst,STARTED,0.1,2023-02-12 19:38:27.215000,34836
+Customer,na-test,bel-na-gbl-sfdc-location-sys-v1-tst,UNDEPLOYED,0.1,2023-01-24 13:00:13.573000,0
+C4E,eu-dev,bel-eu-gbl-helloworld-prc-v1-dev,STARTED,0.1,2023-01-26 02:22:28.183000,0
+Carglass DE,eu-dev,bel-eu-de-calibration-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 19:51:05.329000,0
+Safelite US,na-test,bel-na-sfl-paylogix-sys-v1-tst,UNDEPLOYED,0.1,2023-01-26 18:40:45.718000,0
+Finance,na-dev,bel-na-gbl-ledger-balance-prc-v1-dev,STARTED,0.1,2023-02-13 10:15:10.398000,0
+Supply Chain,na-dev,activemq-sc-dev,UNDEPLOYED,0.1,2023-01-23 11:25:34.389000,0
+Customer,na-test,bel-na-gbl-sfdc-appointment-sys-v1-tst,UNDEPLOYED,0.1,2023-01-24 13:11:40.571000,0
+Obrien AU,apac-test,bel-apac-au-taskupdate-prc-v1-tst,STARTED,0.1,2023-02-15 12:58:33.314000,34108
+C4E,eu-dev,bel-eu-gbl-helloworld-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 02:22:25.652000,0
+Carglass DE,eu-dev,bel-eu-gbl-calibration-prc-v1-dev,UNDEPLOYED,0.1,2023-01-26 19:58:49.560000,0
+HR,na-test,bel-na-gbl-gmft-sys-v1-tst,STARTED,0.1,2023-01-27 03:43:59.991000,6052
+Safelite US,na-test,bel-na-sfl-reed-sys-v1-tst,STARTED,0.1,2023-01-26 18:55:54.709000,0
+Finance,na-dev,bel-na-gbl-lease-management-prc-v1-dev,STARTED,0.1,2023-01-25 10:25:34.015000,0
+Customer,na-test,bel-na-gbl-service-validate-exp-v1-tst,STARTED,0.1,2023-01-24 14:06:33.917000,0
+Supply Chain,na-dev,bel-na-gbl-supplier-capacity-prc-v1-dev,STARTED,0.1,2023-01-23 13:22:30.341000,0
+Obrien AU,apac-test,bel-apac-au-demo-exp-v1-tst,STARTED,0.1,2023-01-25 20:27:51.950000,0
+C4E,eu-dev,bel-eu-c4e-amazon-exp-v1-dev,STARTED,0.1,2023-01-26 05:23:47.882000,0
+Carglass DE,eu-dev,workdayemailupdate,STARTED,0.1,2023-01-26 20:45:23.557000,719
+Safelite US,na-test,bel-na-sfl-equifax-sys-v1-tst,UNDEPLOYED,0.1,2023-01-26 19:00:14.635000,0
+Finance,na-dev,bel-na-gbl-bulk-process-aplan-sys-v1-dev,STARTED,0.1,2023-01-25 10:32:27.769000,0
+Customer,na-test,jwt-token8,UNDEPLOYED,0.1,2023-01-24 14:12:02.339000,0
+Obrien AU,apac-test,bel-apac-au-helloworld-exp-v1-tst,STARTED,0.1,2023-02-14 14:15:22,29
+Supply Chain,na-dev,bel-na-gbl-cycle-count-exp-v1-dev,UNDEPLOYED,0.1,2023-01-23 13:24:30.312000,0
+C4E,eu-dev,bel-eu-gbl-event-publisher-exp-v1-dev,STARTED,0.1,2023-01-26 05:39:37.974000,276
+Carglass DE,eu-dev,bel-eu-de-buejo-sys-v1-dev,UNDEPLOYED,0.1,2023-02-07 10:52:16.356000,238045
+Safelite US,na-test,bel-na-sfl-workday-sys-v1-tst,STARTED,0.2,2023-02-15 07:21:08.116000,0
+Customer,na-test,bel-na-gbl-sfdc-motorist-sys-v1-tst,UNDEPLOYED,0.1,2023-01-24 14:52:40.243000,0
+Finance,na-dev,bel-na-gbl-customer-ofcf-sys-v1-dev,STARTED,0.1,2023-02-16 18:04:12.047000,11093
+Obrien AU,apac-test,bel-apac-au-google-maps-sys-v1-tst,STARTED,0.1,2023-02-12 20:11:05.651000,13420
+Supply Chain,na-dev,bel-na-gbl-aslbpa-prc-v1-dev,STARTED,0.1,2023-01-23 14:11:52.437000,0
+C4E,eu-dev,bel-eu-gbl-net-tools-exp-v1-dev,STARTED,0.1,2023-01-26 06:21:28.390000,62
+Carglass DE,eu-dev,bel-eu-gbl-asn-prc-v1-dev,UNDEPLOYED,0.1,2023-02-07 10:52:48.683000,73660
+Safelite US,na-test,bel-na-sfl-edflo-sys-v1-tst,UNDEPLOYED,0.1,2023-01-26 19:13:34.573000,0
+Customer,na-test,bel-na-sfl-workorder-digital-prc-v1-tst,STARTED,0.1,2023-01-24 16:04:09.025000,18
+Finance,na-dev,bel-na-gbl-credit-manager-prc-v1-dev,STARTED,0.1,2023-01-25 10:52:48.372000,0
+Supply Chain,na-dev,bel-na-gbl-asn-validation-prc-v1-dev,STARTED,0.1,2023-02-13 06:26:29.897000,0
+C4E,eu-dev,bel-eu-c4e-amazonpubsub-exp-v1-dev,STARTED,0.1,2023-01-26 06:43:31.620000,0
+Carglass DE,eu-dev,bel-eu-de-oracle-ebs-sys-v1-dev,UNDEPLOYED,0.1,2023-02-07 10:52:33.604000,16057
+Safelite US,na-test,bel-na-sfl-datawarehouse-sys-v1-tst,STARTED,0.1,2023-01-26 19:31:07.867000,0
+Customer,na-test,bel-na-sfl-workorder-digital-exp-v1-tst,STARTED,0.1,2023-01-24 16:20:46.728000,0
+Finance,na-dev,bel-na-gbl-credit-issuer-prc-v1-dev,STARTED,0.1,2023-01-31 09:52:29.518000,3
+C4E,eu-dev,bel-eu-c4e-demo-pipeline101-exp-v1-dev,STARTED,0.1,2023-01-26 07:23:37.429000,0
+Supply Chain,na-dev,bel-na-gbl-purchase-orders-prc-v1-dev,STARTED,0.1,2023-01-31 06:16:06.074000,11
+Customer,na-test,bel-na-c4e-munit-test201-exp-v1-tst,UNDEPLOYED,0.1,2023-01-24 16:48:57.149000,0
+Safelite US,na-test,bel-na-sfl-us-inventory-prc-v1-tst,STARTED,0.6000000000000001,2023-02-07 11:35:40.062000,12411
+Finance,na-dev,bel-na-sfl-fdrl-reserve-prc-v1-dev,STARTED,0.1,2023-02-14 05:31:54.455000,1
+C4E,eu-dev,bel-eu-c4e-fx-rate-prc-v1-dev,UNDEPLOYED,0.1,2023-01-26 09:18:44.763000,0
+Supply Chain,na-dev,bel-na-gbl-supplier-asn-prc-v1-dev,STARTED,0.1,2023-02-16 13:29:46.030000,338
+Customer,na-test,bel-na-sfl-krns-punches-sys-v1-tst,STARTED,0.1,2023-01-24 17:09:59.866000,0
+Safelite US,na-test,safelite-health-tst,UNDEPLOYED,0.1,2023-01-26 20:14:12.909000,0
+Finance,na-dev,bel-na-gbl-fx-rate-refnv-sys-v1-dev,STARTED,0.1,2023-01-25 11:41:08.914000,0
+Supply Chain,na-dev,bel-na-gbl-replenish-po-prc-v1-dev,STARTED,0.1,2023-02-13 12:17:19.787000,0
+C4E,eu-dev,bel-eu-c4e-pipeline-test201-exp-v2-dev,UNDEPLOYED,0.1,2023-01-26 09:29:55.116000,0
+Customer,na-test,bel-na-sfl-subscriber-punches-prc-v1-tst,STARTED,0.1,2023-01-24 17:24:16.089000,0
+Safelite US,na-test,bel-na-sfl-communication-prc-v1-tst,STARTED,0.1,2023-01-26 20:22:03.241000,2205
+Finance,na-dev,bel-na-gbl-fx-rate-prc-v1-dev,STARTED,0.1,2023-01-25 11:41:55.736000,0
+C4E,eu-dev,bel-eu-c4e-pipeline-test1-exp-dev,UNDEPLOYED,0.1,2023-01-26 12:16:11.743000,0
+Supply Chain,na-dev,bel-na-gbl-supplier-ofcf-sys-v1-dev,STARTED,0.1,2023-02-07 14:36:40.683000,50
+Customer,na-test,bel-na-sfl-order-prc-v1-tst,STARTED,0.1,2023-02-08 08:46:32.643000,0
+Finance,na-dev,bel-na-gbl-invoices-ofcf-sys-v1-dev,STARTED,0.1,2023-02-14 12:57:38.362000,18878
+Safelite US,na-test,bel-na-sfl-oms-callback-exp-v1-tst,UNDEPLOYED,0.2,2023-01-26 20:28:12.125000,0
+Supply Chain,na-dev,bel-na-gbl-purchase-order-ofcf-sys-v1-dev,STARTED,0.1,2023-01-23 18:56:07.417000,623
+C4E,eu-dev,bel-eu-c4e-pipeline-test301-exp-v1-dev,STARTED,0.1,2023-01-26 14:02:12.239000,0
+Customer,na-test,bel-na-sfl-fsl-orderupdates-prc-v1-tst,STARTED,0.1,2023-02-08 02:45:11.919000,8
+Finance,na-dev,bel-na-gbl-receipt-ofcf-sys-v1-dev,STARTED,0.1,2023-02-16 08:29:19.640000,372
+Safelite US,na-test,bel-na-sfl-element-sys-v1-tst,STARTED,0.1,2023-02-08 21:02:42.610000,360
+C4E,eu-dev,bel-eu-gbl-amq-console-exp-v1-dev,STARTED,0.1,2023-01-26 15:50:33.237000,8021
+Supply Chain,na-dev,bel-na-gbl-asn-ofcf-sys-v1-dev,STARTED,0.1,2023-02-16 09:27:47.398000,127
+Customer,na-test,bel-na-gbl-sfdc-job-work-order-sys-v1-tst,UNDEPLOYED,0.1,2023-01-24 18:36:52.495000,0
+Finance,na-dev,bel-na-gbl-payment-ofcf-sys-v1-dev,STARTED,0.1,2023-01-25 12:50:48.665000,236
+Safelite US,na-test,bel-na-sfl-userfeedutility-prc-v1-tst,UNDEPLOYED,0.1,2023-01-26 21:46:30.418000,0
+Supply Chain,na-dev,bel-na-gbl-worker-ofcf-sys-v1-dev,STARTED,0.1,2023-01-23 19:56:38.978000,0
+Customer,na-test,bel-na-sfl-gqi-prc-v1-tst,STARTED,0.1,2023-01-24 18:54:12.769000,0
+Finance,na-dev,bel-na-gbl-inv-claim-prc-v1-dev,STARTED,0.1,2023-02-15 09:20:00.278000,18
+Safelite US,na-test,bel-na-sfl-tango-sys-v1-tst,STARTED,0.1,2023-01-26 22:12:19.201000,0
+Supply Chain,na-dev,bel-na-gbl-location-ofcf-sys-v1-dev,STARTED,0.1,2023-02-13 13:54:12.563000,132
+Customer,na-test,bel-na-sfl-fsl-techassignment-prc-v1,UNDEPLOYED,0.1,2023-01-24 19:01:47.650000,0
+Finance,na-dev,bel-na-gbl-supplier-extract-sys-v1-dev,STARTED,0.1,2023-01-25 14:16:21.319000,91
+C4E,eu-test,bel-eu-gbl-helloworld-exp-v1-tst,STARTED,0.1,2023-01-26 03:11:22.497000,0
+Safelite US,na-test,bel-na-sfl-batchrealestatemgmt-exp-v1-tst,UNDEPLOYED,0.1,2023-01-26 22:11:41.236000,0
+Supply Chain,na-dev,bel-na-gbl-address-melissa-sys-v1-dev,UNDEPLOYED,0.1,2023-02-09 09:41:00.614000,104
+Customer,na-test,bel-na-sfl-gqi-prc-v1,UNDEPLOYED,0.1,2023-01-24 19:13:13.529000,0
+Finance,na-dev,bel-na-gbl-customer-extract-sys-v1-dev,STARTED,0.1,2023-01-25 14:22:32.822000,36
+C4E,eu-test,bel-eu-gbl-helloworld-prc-v1-tst,STARTED,0.1,2023-01-26 03:19:21.843000,0
+Customer,na-test,bel-na-sfl-fsl-techassignment-prc-v1-tst,UNDEPLOYED,0.1,2023-01-24 19:23:43.631000,0
+Finance,na-dev,bel-na-gbl-banks-ofcf-sys-v1-dev,STARTED,0.1,2023-01-25 14:46:36.518000,0
+C4E,eu-test,bel-eu-gbl-helloworld-sys-v1-tst,STARTED,0.1,2023-01-26 03:38:16.623000,0
+Supply Chain,na-dev,bel-na-gbl-address-validation-prc-v1-dev,STARTED,0.1,2023-02-08 13:34:15.676000,8
+Safelite US,na-test,bel-na-sfl-realestatemgmt-prc-v1-tst,STARTED,0.1,2023-01-26 22:28:04.039000,4
+Customer,na-test,bel-na-sfl-sf-workorder-exp-v1-tst,STARTED,0.1,2023-01-24 19:35:40.330000,0
+Finance,na-dev,bel-na-gbl-pay-after-prc-v1-dev,STARTED,0.1,2023-02-13 10:34:25.097000,16
+C4E,eu-test,bel-eu-c4e-demo-pipeline101-exp-v1-tst,UNDEPLOYED,0.1,2023-01-26 07:48:21.846000,0
+Supply Chain,na-dev,bel-na-gbl-ofcf-address-vldtn-prc-v1-dev,STARTED,0.1,2023-02-16 08:53:14.739000,13
+Safelite US,na-test,bel-na-sfl-s3-sys-v1-tst,STARTED,0.2,2023-01-26 22:29:35.328000,0
+Customer,na-test,bel-na-sfl-documents-comm-prc-v1-tst,STARTED,0.1,2023-02-08 02:34:25.042000,846
+Finance,na-dev,bel-na-gbl-voucher-status-prc-v1-dev,STARTED,0.1,2023-02-07 09:15:12.112000,4
+C4E,eu-test,bel-eu-gbl-event-publisher-exp-v1-tst,STARTED,0.1,2023-01-26 11:16:06.650000,3984
+Supply Chain,na-dev,bel-na-gbl-mlsa-melissa-sys-v1-dev,STARTED,0.1,2023-02-09 09:04:02.813000,34
+Safelite US,na-test,kibanapoc,UNDEPLOYED,0.1,2023-01-27 00:05:25.551000,0
+Customer,na-test,bel-na-gbl-order-prc-v1-tst,STARTED,0.1,2023-01-24 20:30:55.312000,0
+Finance,na-dev,bel-na-gbl-receipt-upload-prc-v1-dev,STARTED,0.1,2023-02-13 11:46:49.312000,168
+C4E,eu-test,bel-eu-c4e-pipeline-test1-exp-v1-tst,STARTED,0.1,2023-01-26 12:47:28.130000,0
+Safelite US,na-test,bel-na-sfl-warehouse-mgmt-exp-v1-tst,STARTED,0.2,2023-02-10 14:22:05.316000,1467
+Customer,na-test,bel-na-sfl-service-tracker-prc-v1-tst,STARTED,0.1,2023-01-24 21:07:33.114000,0
+Finance,na-dev,bel-na-gbl-imdm-motorist-sys-v1-dev,STARTED,0.1,2023-02-10 06:18:42.100000,1094
+C4E,eu-test,bel-eu-c4e-pipeline-test1-exp-tst,UNDEPLOYED,0.1,2023-01-26 12:57:51.050000,0
+Safelite US,na-test,bel-na-sfl-eworkorder-exp-v1-tst,STARTED,0.1,2023-01-27 00:55:33.679000,102
+Customer,na-test,bel-na-sfl-service-tracker-sys-v1-tst,STARTED,0.1,2023-01-12 14:13:36.164000,3
+Finance,na-dev,bel-na-gbl-adjustments-ofcf-sys-v1-dev,STARTED,0.1,2023-01-25 17:34:09.430000,0
+Supply Chain,eu-dev,bel-eu-it-bcen-exp-v1-dev,STARTED,0.1,2023-02-01 10:08:50.049000,16
+C4E,eu-test,bel-eu-c4e-pipeline-test301-exp-v1-tst,STARTED,0.1,2023-01-26 14:21:12.648000,0
+Safelite US,na-test,bel-na-sfl-eworkorder-prc-v1-tst,STARTED,0.1,2023-01-27 01:02:45.457000,153
+Customer,na-test,bel-na-sfl-fsl-techassigned-prc-v1-tst,UNDEPLOYED,0.1,2023-01-24 21:37:08.334000,0
+Supply Chain,eu-dev,bel-eu-gbl-kadv-product-sys-v1-dev,STARTED,0.1,2023-02-01 10:09:04.990000,4
+Finance,na-dev,bel-na-gbl-general-ledger-ofcf-sys-v1-dev,STARTED,0.1,2023-01-25 17:47:07.423000,0
+Safelite US,na-test,bel-na-sfl-esri-sys-v1-tst,UNDEPLOYED,0.1,2023-01-27 01:17:37.414000,0
+Customer,na-test,bel-na-sfl-documents-prc-v1-tst,STARTED,0.1,2023-02-07 20:17:54.878000,0
+Supply Chain,eu-dev,bel-eu-gbl-kadv-order-in-sys-v1-dev,STARTED,0.1,2023-01-23 03:52:43.658000,4
+Finance,na-dev,bel-na-gbl-adjust-debitmemo-prc-v1-dev,STARTED,0.1,2023-01-30 11:01:08.469000,9
+Safelite US,na-test,bel-na-sfl-ccis-rs-sys-v1-tst,STARTED,0.1,2023-01-31 05:53:31.052000,3005
+Customer,na-test,bel-na-gbl-aws-s3-sys-v1-tst,STARTED,0.1,2023-01-24 22:40:05.969000,496
+Supply Chain,eu-dev,bel-eu-gbl-common-exp-v1-dev,UNDEPLOYED,0.1,2023-01-23 03:56:23.365000,0
+C4E,apac-dev,bel-apac-c4e-amazon-exp-v1-dev,STARTED,0.1,2023-01-25 20:05:17.356000,0
+Finance,na-dev,bel-na-gbl-adjustments-upload-prc-v1-dev,STARTED,0.1,2023-02-13 16:20:43.882000,2
+Safelite US,na-test,bel-na-sfl-ccis-exp-v1-tst,STARTED,0.1,2023-01-19 12:49:08.774000,7412
+Customer,na-test,bel-na-gbl-sfdc-location-sys-v01-tst,UNDEPLOYED,0.1,2023-01-24 22:44:57.601000,0
+Supply Chain,eu-dev,bel-eu-gbl-kadv-asn-sys-v1-dev,STARTED,0.1,2023-01-23 04:07:35.912000,0
+C4E,apac-dev,bel-apac-c4e-helloworld-exp-v1-dev,UNDEPLOYED,0.1,2023-01-25 20:09:30.636000,0
+Finance,na-dev,bel-na-gbl-subscriber-ap-inv-prc-v1-dev,STARTED,0.1,2023-02-15 13:08:40.925000,60
+Safelite US,na-test,bel-na-sfl-supply-chain-ping-exp-v1-tst,STARTED,0.1,2023-01-27 02:34:02.384000,0
+Customer,na-test,bel-na-gbl-sfdc-appointment-sys-v01-tst,UNDEPLOYED,0.1,2023-01-24 22:52:57.073000,0
+C4E,apac-dev,bel-apac-c4e-helloworld-prc-v1-dev,STARTED,0.1,2023-01-25 20:42:37.352000,0
+Supply Chain,eu-dev,bel-eu-gbl-kadv-order-out-sys-v1-dev,STARTED,0.1,2023-01-27 09:06:02.663000,8
+Finance,na-dev,bel-na-gbl-imdm-accounts-sys-v1-dev,STARTED,0.1,2023-02-10 13:25:34.084000,513
+Safelite US,na-test,bel-na-sfl-shortenurlproxy-exp-v1-tst,STARTED,0.1,2023-01-27 02:45:59.096000,6946
+Customer,na-test,bel-na-gbl-sfdc-eventbus-sys-v01-tst,UNDEPLOYED,0.1,2023-01-24 23:11:41.045000,0
+C4E,apac-dev,bel-apac-c4e-helloworld-sys-v1-dev,UNDEPLOYED,0.1,2023-01-25 21:09:14.045000,0
+Supply Chain,eu-dev,bel-eu-it-bcen-sys-v1-dev,STARTED,0.1,2023-01-23 04:36:08.057000,0
+Finance,na-dev,bel-na-gbl-account-enrich-prc-v1-dev,STARTED,0.1,2023-02-15 06:42:52.242000,977
+Safelite US,na-test,bel-na-sfl-mrmapi-prc-v1-tst,STARTED,0.30000000000000004,2023-01-27 03:01:21.776000,1610
+Customer,na-test,bel-na-gbl-subscriber-location-prc-v01-tst,UNDEPLOYED,0.1,2023-01-24 23:24:35.066000,0
+C4E,apac-dev,bel-apac-gbl-net-tools-exp-v1-dev,STARTED,0.1,2023-01-25 22:51:53.382000,0
+Finance,na-dev,bel-na-gbl-customer-mdm-enrich-prc-v1-dev,STARTED,0.1,2023-02-15 08:00:58.111000,349
+Supply Chain,eu-dev,bel-eu-gbl-kadv-receipt-prc-v1-dev,STARTED,0.1,2023-01-23 04:42:48.423000,0
+Safelite US,na-test,bel-na-sfl-mrmapiproxyv2-exp-v1-tst,STARTED,0.1,2023-01-27 03:10:59.536000,1478
+Customer,na-test,bel-na-gbl-subscriber-products-prc-v01-tst,UNDEPLOYED,0.1,2023-01-24 23:35:34.530000,0
+C4E,apac-dev,bel-apac-c4e-pipeline-test301-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 03:09:52.677000,0
+Finance,na-dev,bel-na-gbl-subscriber-customers-prc-v1-dev,STARTED,0.1,2023-02-14 13:45:39.111000,2770
+Supply Chain,eu-dev,bel-eu-gbl-kadv-inventory-prc-v1-dev,STARTED,0.1,2023-01-23 04:48:03.611000,0
+Safelite US,na-test,bel-na-sfl-sfdc-opt-ref-wo-exp-v1-tst,UNDEPLOYED,0.1,2023-01-27 03:12:28.624000,0
+Customer,na-test,bel-na-gbl-sfdc-job-appointment-sys-v1-tst,UNDEPLOYED,0.1,2023-01-24 23:43:48.554000,0
+C4E,apac-dev,bel-apac-c4e-pipeline-test201-exp-v2-dev,STARTED,0.1,2023-01-26 03:19:59.255000,0
+Finance,na-dev,bel-na-gbl-motorist-invoice-prc-v1-dev,STARTED,0.1,2023-02-15 06:42:29.106000,60
+Supply Chain,eu-dev,bel-eu-gbl-kadv-stockadj-prc-v1-dev,UNDEPLOYED,0.1,2023-01-23 05:00:24.183000,0
+Safelite US,na-test,bel-na-sfl-tango-sys-v2-tst,STARTED,0.1,2023-02-01 15:17:37.335000,6560
+Customer,na-test,bel-na-gbl-sfdc-job-work-order-sys-v01-tst,UNDEPLOYED,0.1,2023-01-25 00:09:36.251000,0
+C4E,apac-dev,bel-apac-gbl-amq-console-exp-v1-dev,STARTED,0.1,2023-01-26 04:19:59.873000,1207
+Supply Chain,eu-dev,bel-eu-gbl-kadv-shipment-prc-v1-dev,STARTED,0.1,2023-01-23 05:16:47.602000,0
+Finance,na-dev,publish-message-jms-dev,STARTED,0.1,2023-02-16 09:38:58.969000,36
+Safelite US,na-test,bel-na-sfl-connectivity-v1-tst,UNDEPLOYED,1.0,2023-01-27 04:42:33.110000,0
+Customer,na-test,bel-na-gbl-sfdc-motorist-sys-v01-tst,UNDEPLOYED,0.1,2023-01-25 00:23:30.660000,0
+Supply Chain,eu-dev,bel-eu-gbl-wday-employee-sys-v1-dev,STARTED,0.1,2023-01-23 12:46:05.297000,60
+Finance,na-dev,consume-message,UNDEPLOYED,0.1,2023-02-14 11:17:56.471000,54
+Safelite US,na-test,bel-na-sfl-cn-exp-v1-tst,STARTED,0.1,2023-01-27 04:48:58.895000,0
+Customer,na-test,bel-na-gbl-sfdc-shifts-sys-v01-tst,STARTED,0.1,2023-01-25 00:31:58.329000,0
+C4E,apac-uat,bel-apac-c4e-helloworld-exp-v1-uat,UNDEPLOYED,0.1,2023-01-25 22:13:18.297000,0
+Finance,na-dev,bel-na-gbl-subscriber-accounts-prc-v1-dev,STARTED,0.1,2023-02-16 06:38:28.827000,37
+Supply Chain,eu-dev,bel-eu-gbl-kadv-employee-sys-v1-dev,STARTED,0.1,2023-01-23 12:55:30.470000,0
+Safelite US,na-test,bel-na-sfl-vehicle-sys-v1-tst,STARTED,0.1,2023-02-12 01:18:43.813000,1856916
+Customer,na-test,bel-na-gbl-sfdc-workers-sys-v1-tst,UNDEPLOYED,0.1,2023-01-25 00:37:08.154000,0
+C4E,apac-uat,bel-apac-c4e-helloworld-prc-v1-uat,UNDEPLOYED,0.1,2023-01-25 22:23:43.232000,0
+Supply Chain,eu-dev,bel-eu-gbl-employee-prc-v1-dev,STARTED,0.1,2023-01-23 13:10:44.726000,30
+Safelite US,na-test,bel-na-sfl-vehicle-exp-v1-tst,STARTED,0.1,2023-02-12 03:00:20.322000,1217639
+Customer,na-test,bel-na-sfl-sv2-communication-sys-v1-tst,STARTED,0.1,2023-01-25 00:51:57.455000,6
+Customer,na-test,bel-na-gbl-gmft-exp-v1-tst,STARTED,0.1,2023-02-15 11:44:29.003000,16
+Safelite US,na-test,bel-na-sfl-account-sys-v1-tst,STARTED,0.1,2023-02-06 14:10:26.278000,387
+Finance,eu-dev,bel-eu-gbl-bulk-import-ofcf-sys-v1-dev,UNDEPLOYED,0.1,2023-02-08 10:39:53.615000,0
+Customer,na-test,bel-na-sfl-esl-updates-sys-v1-tst,STARTED,0.1,2023-01-25 02:03:47.270000,19
+Safelite US,na-test,bel-na-sfl-account-exp-v1-tst,STARTED,0.1,2023-01-26 17:23:06.334000,321
+Finance,eu-dev,bel-eu-gbl-gl-ledger-exp-v1-dev,UNDEPLOYED,0.1,2023-02-08 10:40:29.178000,0
+C4E,na-test,bel-na-gbl-helloworld-exp-v1-tst,UNDEPLOYED,0.1,2023-01-26 08:06:26.843000,0
+Supply Chain,eu-test,bel-eu-gbl-common-exp-v1-tst,UNDEPLOYED,0.1,2023-01-23 06:25:03.776000,0
+Customer,na-test,bel-na-sfl-scheduling-esl-sys-v1-tst,STARTED,0.1,2023-01-25 02:29:43.644000,5474
+Safelite US,na-test,bel-na-sfl-ibm-sys-v1-tst,STARTED,0.1,2023-01-24 07:35:25.146000,0
+Finance,eu-dev,bel-eu-gbl-gl-ledger-prc-v1-dev,UNDEPLOYED,0.1,2023-02-08 10:41:21.992000,0
+Supply Chain,eu-test,bel-eu-gbl-kadv-product-sys-v1-tst,STARTED,0.1,2023-02-01 10:15:08.576000,912
+C4E,na-test,bel-na-gbl-helloworld-prc-v1-tst,UNDEPLOYED,0.1,2023-01-26 08:15:54.439000,0
+Customer,na-test,bel-na-gbl-sfdc-job-work-order-sys-v02-tst,UNDEPLOYED,0.1,2023-01-25 02:28:47.832000,0
+Safelite US,na-test,bel-na-sfl-problem-question-sys-v1-tst,STARTED,0.1,2023-01-30 16:05:28.286000,891
+Finance,eu-dev,bel-eu-gbl-fx-rate-refnv-sys-v1-dev,UNDEPLOYED,0.1,2023-01-24 20:49:19.391000,0
+C4E,na-test,bel-na-gbl-helloworld-sys-v1-tst,UNDEPLOYED,0.1,2023-01-26 08:33:41.311000,0
+Supply Chain,eu-test,bel-eu-gbl-kadv-asn-sys-v1-tst,STARTED,0.1,2023-01-23 06:56:00.661000,146
+Customer,na-test,bel-na-gbl-subscriber-location-prc-v02-tst,UNDEPLOYED,0.1,2023-01-25 02:37:50.484000,0
+Safelite US,na-test,bel-na-sfl-problem-question-exp-v1-tst,STARTED,0.1,2023-01-30 17:36:51.065000,228
+Finance,eu-dev,bel-eu-gbl-fx-rate-prc-v1-dev,UNDEPLOYED,0.1,2023-01-24 20:58:04.739000,0
+C4E,na-test,bel-na-c4e-democicd-exp-v1-tst,UNDEPLOYED,0.1,2023-01-26 09:28:00.709000,0
+Supply Chain,eu-test,bel-eu-gbl-kadv-order-in-sys-v1-tst,STARTED,0.1,2023-01-23 07:00:14.232000,284
+Customer,na-test,bel-na-gbl-subscriber-products-prc-v02-tst,UNDEPLOYED,0.1,2023-01-25 02:48:32.650000,0
+Safelite US,na-test,bel-na-sfl-vcd-sys-v1-tst,STARTED,0.1,2023-02-12 03:15:55.391000,202
+Finance,eu-dev,bel-eu-gbl-bip-report-ofcf-sys-v1-dev,UNDEPLOYED,0.1,2023-02-08 10:39:43.233000,0
+C4E,na-test,bel-na-c4e-imdm-motorist-sys-v1-tst,STARTED,0.1,2023-01-26 09:51:32.763000,0
+Supply Chain,eu-test,bel-eu-gbl-kadv-order-out-sys-v1-tst,STARTED,0.1,2023-01-27 09:12:39.889000,894
+Safelite US,na-test,bel-na-sfl-glass-sys-v1-tst,STARTED,0.1,2023-02-14 19:07:48.822000,321
+Customer,na-test,bel-na-gbl-sfdc-appointment-sys-v02-tst,UNDEPLOYED,0.1,2023-01-25 03:04:06.123000,0
+Finance,eu-dev,bel-eu-gbl-ic-invoice-coprc-sys-v1-dev,UNDEPLOYED,0.1,2023-01-24 21:23:44.761000,0
+C4E,na-test,bel-na-c4e-imdm-motorist-exp-v1-tst,UNDEPLOYED,0.1,2023-01-26 09:59:08.453000,0
+Supply Chain,eu-test,bel-eu-it-bcen-exp-v1-tst,STARTED,0.1,2023-02-01 10:15:08.707000,2276
+Customer,na-test,bel-na-gbl-sfdc-eventbus-sys-v02-tst,UNDEPLOYED,0.1,2023-01-25 03:14:27.023000,0
+Safelite US,na-test,bel-na-sfl-email-validation-sys-v1-tst,STARTED,0.1,2023-02-07 18:33:05.715000,16
+Finance,eu-dev,bel-eu-gbl-ic-invoice-prc-v1-dev,UNDEPLOYED,0.1,2023-01-24 21:37:40.933000,0
+C4E,na-test,bel-na-c4e-pipeline-test-exp-tst,UNDEPLOYED,0.1,2023-01-26 12:22:43.112000,0
+Supply Chain,eu-test,bel-eu-it-bcen-sys-v1-tst,STARTED,0.1,2023-01-23 07:37:31.646000,2650
+Customer,na-test,bel-na-gbl-sfdc-location-sys-v02-tst,UNDEPLOYED,0.1,2023-01-25 03:24:38.554000,0
+Safelite US,na-test,bel-na-sfl-duplicatecheck-sys-v1-tst,STARTED,0.1,2023-02-15 18:53:54.401000,46
+Finance,eu-dev,bel-eu-gbl-concr-sys-v1-dev,UNDEPLOYED,0.1,2023-02-08 10:40:08.594000,0
+C4E,na-test,bel-na-c4e-pipeline-test2-exp-v1-tst,UNDEPLOYED,0.1,2023-01-26 12:32:13.936000,0
+Supply Chain,eu-test,bel-eu-gbl-kadv-receipt-prc-v1-tst,STARTED,0.1,2023-01-23 07:51:53.873000,108
+Customer,na-test,bel-na-gbl-sfdc-workers-sys-v02-tst,UNDEPLOYED,0.1,2023-01-25 03:32:55.791000,0
+Safelite US,na-test,bel-na-sfl-sflapi-geo-loc-sys-v1-tst,STARTED,0.1,2023-02-14 18:59:48.073000,75
+Finance,eu-dev,bel-eu-gbl-gl-code-prc-v1-dev,UNDEPLOYED,0.1,2023-01-24 22:31:47.675000,0
+C4E,na-test,bel-na-c4e-pipeline-test201-exp-v2-tst,UNDEPLOYED,0.1,2023-01-26 15:13:21.443000,0
+Supply Chain,eu-test,bel-eu-gbl-kadv-shipment-prc-v1-tst,STARTED,0.1,2023-01-23 07:54:33.939000,565
+Customer,na-test,bel-na-sfl-krns-shifts-prc-v1-tst,STARTED,0.1,2023-02-15 15:46:16.930000,18
+Safelite US,na-test,bel-na-sfl-sv2-crm-sys-v1-tst,UNDEPLOYED,0.1,2023-02-13 22:19:40.899000,0
+Finance,eu-dev,bel-eu-gbl-expense-invoice-prc-v1-dev,UNDEPLOYED,0.1,2023-01-24 23:13:29.002000,0
+C4E,na-test,bel-na-c4e-pipeline-test-exp-v1-tst,UNDEPLOYED,0.1,2023-01-26 16:58:31.587000,0
+Supply Chain,eu-test,bel-eu-gbl-kadv-stockadj-prc-v1-tst,STARTED,0.1,2023-01-23 08:03:49.393000,188
+Customer,na-test,bel-na-sfl-milestones-prc-v1-tst,STARTED,0.1,2023-01-25 04:05:21.601000,28
+Finance,eu-dev,bel-eu-gbl-ofcf-reference-data-sys-v1-dev,UNDEPLOYED,0.1,2023-02-08 10:42:02.498000,0
+C4E,na-test,bel-na-c4e-fsl-techassigned-prc-v1-tst,UNDEPLOYED,0.1,2023-01-26 17:21:51.145000,0
+Supply Chain,eu-test,bel-eu-gbl-kadv-inventory-prc-v1-tst,STARTED,0.1,2023-01-23 08:39:47.191000,463
+Customer,na-test,bel-na-sfl-workorder-ro-esl-sys-v1-tst,STARTED,0.1,2023-01-25 05:26:05.222000,92
+Finance,eu-dev,bel-eu-gbl-ledger-ofcf-sys-v1-dev,UNDEPLOYED,0.1,2023-01-25 01:08:21.733000,0
+C4E,na-test,bel-na-c4e-pipeline-test1-exp-v1-tst,UNDEPLOYED,0.1,2023-01-26 17:52:51.623000,0
+Customer,na-test,bel-na-sfl-scheduling-prc-v1-tst,STARTED,0.1,2023-01-25 09:30:36.599000,2904
+Finance,eu-dev,bel-eu-gbl-ledger-balance-prc-v1-dev,UNDEPLOYED,0.1,2023-02-08 10:41:40.289000,0
+C4E,na-test,bel-na-c4e-pipeline-test1-exp-tst,UNDEPLOYED,0.1,2023-01-26 18:14:52.895000,0
+Customer,na-test,bel-na-sfl-scheduling-exp-v1-tst,STARTED,0.1,2023-01-25 09:48:51.058000,2904
+Finance,eu-dev,bel-eu-gbl-bulk-process-aplan-sys-v1-dev,UNDEPLOYED,0.1,2023-01-25 01:37:45.473000,0
+C4E,na-test,bel-na-gbl-event-publisher-exp-v1-tst,STARTED,0.1,2023-01-26 18:55:26.609000,12833
+Customer,na-test,bel-na-sfl-sfscheduling-exp-v1-tst,STARTED,0.1,2023-01-25 10:28:06.069000,0
+C4E,na-test,bel-na-c4e-pipeline-test301-exp-v1-tst,UNDEPLOYED,0.1,2023-01-26 19:30:54.788000,0
+Customer,na-test,bel-na-gbl-documents-exp-v1-tst,STARTED,0.1,2023-01-27 08:21:26.993000,10
+C4E,na-test,bel-na-c4e-imdm-product-exp-v1-tst,STARTED,0.1,2023-01-26 19:47:00.077000,0
+Customer,na-test,bel-na-gbl-entegral-exp-v1-tst,STARTED,0.1,2023-02-08 06:10:07.330000,274
+Finance,eu-test,bel-eu-gbl-gl-ledger-exp-v1-tst,UNDEPLOYED,0.1,2023-02-08 10:38:04.761000,0
+C4E,na-test,bel-na-c4e-hello-world-1234-exp-v1-tst,UNDEPLOYED,0.1,2023-01-26 20:03:55.968000,0
+Customer,na-test,bel-na-gbl-entegral-sys-v1-tst,STARTED,0.1,2023-02-07 10:50:02.239000,232
+Finance,eu-test,bel-eu-gbl-gl-ledger-prc-v1-tst,UNDEPLOYED,0.1,2023-02-08 10:38:19.211000,0
+C4E,na-test,bel-na-c4e-imdm-location-sys-v1-tst,STARTED,0.1,2023-02-08 14:10:52.246000,126
+Supply Chain,eu-uat,bel-eu-gbl-common-exp-v1-uat,UNDEPLOYED,0.1,2023-01-23 10:52:26.183000,0
+Customer,na-test,bel-na-gbl-entegral-prc-v1-tst,STARTED,0.1,2023-02-16 19:07:31.292000,831
+Finance,eu-test,bel-eu-gbl-bulk-import-ofcf-sys-v1-tst,UNDEPLOYED,0.1,2023-02-08 10:36:32.314000,0
+Safelite US,na-dev,bel-na-sfl-oms-sys-v1-dev,UNDEPLOYED,0.2,2023-01-26 07:37:02.421000,0
+Supply Chain,eu-uat,bel-eu-gbl-kadv-asn-sys-v1-uat,STARTED,0.1,2023-01-23 11:05:16.171000,198
+Customer,na-test,bel-na-sfl-techvan-prc-v1-tst,STARTED,0.1,2023-02-16 14:33:07.588000,3
+Finance,eu-test,bel-eu-gbl-concr-sys-v1-tst,UNDEPLOYED,0.1,2023-01-24 21:52:44.914000,0
+Supply Chain,eu-uat,bel-eu-gbl-kadv-order-in-sys-v1-uat,STARTED,0.1,2023-01-23 11:22:45.916000,258
+Customer,na-test,bel-na-gbl-sfdc-appointment-sys-v03-tst,UNDEPLOYED,0.1,2023-01-25 14:20:22.635000,0
+Finance,eu-test,bel-eu-gbl-fx-rate-refnv-sys-v1-tst,UNDEPLOYED,0.1,2023-02-08 10:37:42.241000,0
+Safelite US,na-dev,bel-na-sfl-oms-prc-v1-dev,UNDEPLOYED,0.2,2023-01-26 07:42:29.912000,0
+Customer,na-test,bel-na-gbl-sfdc-workers-sys-v03-tst,UNDEPLOYED,0.1,2023-01-25 14:34:45.442000,0
+Finance,eu-test,bel-eu-gbl-fx-rate-prc-v1-tst,UNDEPLOYED,0.1,2023-02-08 10:36:11.476000,0
+Supply Chain,eu-uat,bel-eu-gbl-kadv-order-out-sys-v1-uat,STARTED,0.1,2023-01-27 09:19:33.404000,0
+Safelite US,na-dev,bel-na-sfl-shipment-prc-v1-dev,STARTED,0.1,2023-02-09 17:38:50.548000,21
+Customer,na-test,bel-na-gbl-sfdc-motorist-sys-v03-tst,UNDEPLOYED,0.1,2023-01-25 15:02:54.231000,0
+Finance,eu-test,bel-eu-gbl-bip-report-ofcf-sys-v1-tst,UNDEPLOYED,0.1,2023-02-08 10:36:22.251000,0
+Supply Chain,eu-uat,bel-eu-gbl-kadv-product-sys-v1-uat,STARTED,0.1,2023-02-01 10:22:55.077000,107964
+Safelite US,na-dev,bel-na-sfl-transferorders-prc-v1-dev,STARTED,0.1,2023-02-16 12:45:55.568000,725
+Customer,na-test,bel-na-sfl-workordermgmt-sys-v1-tst,STARTED,0.1,2023-01-25 15:25:41.375000,0
+Finance,eu-test,bel-eu-gbl-ic-invoice-coprc-sys-v1-tst,UNDEPLOYED,0.1,2023-02-08 10:38:37.325000,0
+Safelite US,na-dev,bel-na-sfl-us-inventory-prc-v1-dev,STARTED,0.2,2023-02-09 17:49:37.356000,4421
+Supply Chain,eu-uat,bel-eu-it-bcen-sys-v1-uat,STARTED,0.1,2023-01-23 11:54:07.279000,694
+C4E,na-dev,bel-na-gbl-helloworld-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 07:03:07.462000,0
+Customer,na-test,bel-na-gbl-subscriber-products-prc-v03-tst,UNDEPLOYED,0.1,2023-01-25 15:26:07.885000,0
+Finance,eu-test,bel-eu-gbl-ic-invoice-prc-v1-tst,UNDEPLOYED,0.1,2023-02-08 10:38:50.717000,0
+Supply Chain,eu-uat,bel-eu-it-bcen-exp-v1-uat,STARTED,0.1,2023-02-01 10:23:05.393000,108512
+Safelite US,na-dev,bel-na-sfl-esl-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 08:32:42.394000,0
+C4E,na-dev,bel-na-gbl-helloworld-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 07:12:56.548000,0
+Customer,na-test,bel-na-gbl-subscriber-location-prc-v03-tst,UNDEPLOYED,0.1,2023-01-25 15:41:45.081000,0
+Finance,eu-test,bel-eu-gbl-ledger-balance-prc-v1-tst,UNDEPLOYED,0.1,2023-01-24 23:23:36.281000,0
+Supply Chain,eu-uat,bel-eu-gbl-kadv-inventory-prc-v1-uat,STARTED,0.1,2023-01-23 12:09:19.477000,180
+Safelite US,na-dev,safelite-connectivity-chdevapi,UNDEPLOYED,0.1,2023-01-26 08:40:19.536000,0
+C4E,na-dev,bel-na-gbl-helloworld-prc-v1-dev,UNDEPLOYED,0.1,2023-01-26 07:23:53.276000,0
+Customer,na-test,bel-na-gbl-sfdc-eventbus-sys-v03-tst,UNDEPLOYED,0.1,2023-01-25 15:46:41.366000,0
+Finance,eu-test,bel-eu-gbl-gl-code-prc-v1-tst,UNDEPLOYED,0.1,2023-01-24 23:38:44.691000,0
+Supply Chain,eu-uat,bel-eu-gbl-kadv-receipt-prc-v1-uat,STARTED,0.1,2023-01-23 12:21:52.212000,73
+Safelite US,na-dev,bel-na-sfl-salesorder-prc-v1-dev,UNDEPLOYED,0.1,2023-01-26 08:56:27.986000,0
+C4E,na-dev,bel-na-gbl-custom-metrics-acc-exp-v1-dev,STARTED,0.1,2023-01-26 09:22:53.295000,0
+Customer,na-test,bel-na-gbl-sfdc-job-work-order-sys-v04-tst,UNDEPLOYED,0.1,2023-02-07 05:24:28.834000,200
+Finance,eu-test,bel-eu-gbl-expense-invoice-prc-v1-tst,UNDEPLOYED,0.1,2023-02-08 10:37:05.900000,0
+Supply Chain,eu-uat,bel-eu-gbl-kadv-shipment-prc-v1-uat,STARTED,0.1,2023-01-23 12:32:55.280000,0
+Safelite US,na-dev,bel-na-sfl-highjump-sys-v1-dev,STARTED,0.2,2023-02-16 12:11:07.718000,8
+C4E,na-dev,bel-na-c4e-logging-test-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 09:42:28.855000,0
+Customer,na-test,bel-na-gbl-sfdc-eventbus-sys-v2-tst,STARTED,0.1,2023-02-04 13:07:13.858000,396
+Finance,eu-test,bel-eu-gbl-ofcf-reference-data-sys-v1-tst,UNDEPLOYED,0.1,2023-02-08 10:39:02.963000,0
+Supply Chain,eu-uat,bel-eu-gbl-kadv-stockadj-prc-v1-uat,STARTED,0.1,2023-01-23 12:40:25.259000,94
+Safelite US,na-dev,bel-na-sfl-analytics-prc-v1-dev,UNDEPLOYED,0.1,2023-01-26 09:29:38.362000,0
+C4E,na-dev,bel-na-c4e-custom-metric-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 10:09:30.369000,0
+Customer,na-test,bel-na-gbl-sfdc-workers-sys-v2-tst,STARTED,0.1,2023-02-05 12:51:13.970000,91
+Finance,eu-test,bel-eu-gbl-bulk-process-aplan-sys-v1-tst,UNDEPLOYED,0.1,2023-01-25 02:48:18.366000,0
+Safelite US,na-dev,bel-na-sfl-datawarehouse-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 09:32:59.421000,0
+C4E,na-dev,bel-na-c4e-custom-details-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 10:17:59.801000,0
+Customer,na-test,bel-na-gbl-sfdc-job-appointment-sys-v2-tst,STARTED,0.1,2023-01-25 17:52:48.729000,34
+Safelite US,na-dev,bel-na-sfl-employee-prc-v1-dev,STARTED,0.2,2023-01-31 09:17:05.906000,245
+C4E,na-dev,bel-na-c4e-custom-details-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 10:33:19.295000,0
+Customer,na-test,bel-na-gbl-sfdc-motorist-sys-v2-tst,STARTED,0.1,2023-02-04 10:50:20.980000,58
+Safelite US,na-dev,bel-na-sfl-location-prc-v1-dev,UNDEPLOYED,0.1,2023-01-26 09:58:57.521000,0
+C4E,na-dev,bel-na-c4e-customdetails-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 10:46:57.174000,0
+Customer,na-test,bel-na-gbl-sfdc-location-sys-v2-tst,STARTED,0.1,2023-01-25 18:53:23.935000,1356
+Safelite US,na-dev,bel-na-sfl-workday-sys-v1-dev,STARTED,0.2,2023-01-31 17:39:07.279000,579
+C4E,na-dev,bel-na-c4e-mdm-motorist-sys-v1-dev,STARTED,0.1,2023-01-26 11:16:39.383000,0
+Finance,na-test,bel-na-gbl-ofcf-reference-data-sys-v1-tst,STARTED,0.1,2023-02-02 08:03:19.653000,15273
+Customer,na-test,bel-na-gbl-subscriber-products-prc-v2-tst,STARTED,0.1,2023-02-04 12:03:27.181000,61
+Safelite US,na-dev,bel-na-sfl-s3-sys-v1-dev,STARTED,0.2,2023-01-26 10:20:26.643000,0
+C4E,na-dev,bel-na-c4e-validate-licenses-exp-v1-dev,STARTED,0.1,2023-01-26 11:26:59.848000,4307
+Finance,na-test,bel-na-gbl-bulk-import-ofcf-sys-v2-tst,STARTED,0.1,2023-02-15 14:33:05.891000,756
+Customer,na-test,bel-na-gbl-subscriber-locations-prc-v2-tst,STARTED,0.1,2023-02-16 15:01:48.254000,344
+Safelite US,na-dev,bel-na-sfl-servicechannel-sys-v1-dev,STARTED,0.1,2023-02-07 07:07:37.811000,263
+C4E,na-dev,bel-na-c4e-amazon-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 11:33:56.876000,0
+Finance,na-test,bel-na-gbl-coa-extract-prc-v1-tst,STARTED,0.1,2023-02-06 11:33:14.137000,21
+Customer,na-test,bel-na-sfl-esl-payments-sys-v1-tst,UNDEPLOYED,0.1,2023-01-16 15:21:00.094000,0
+Safelite US,na-dev,bel-na-sfl-realestatefacility-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 10:43:52.816000,0
+C4E,na-dev,oauth-policy-test-api,UNDEPLOYED,0.1,2023-01-26 06:22:08.887000,0
+Finance,na-test,bel-na-gbl-bip-report-ofcf-sys-v2-tst,STARTED,0.1,2023-02-09 14:01:20.918000,132
+Customer,na-test,bel-na-gbl-sfdc-work-order-sys-v2-tst,UNDEPLOYED,0.1,2023-01-30 08:35:06.514000,0
+Safelite US,na-dev,bel-na-sfl-batcheft-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 10:50:40.269000,0
+C4E,na-dev,bel-na-c4e-metrics-toolkit-exp-v1-dev,STARTED,0.2,2023-01-26 12:50:41.172000,7231
+Customer,na-test,bel-na-gbl-sfdc-job-work-order-sys-v2-tst,STARTED,0.1,2023-02-16 13:43:20.387000,17
+Finance,na-test,bel-na-gbl-ap-remittance-prc-v1-tst,STARTED,0.1,2023-02-16 09:12:22.218000,6
+Safelite US,na-dev,bel-na-sfl-okta-sys-v1-dev,STARTED,0.1,2023-01-26 11:02:55.535000,0
+C4E,na-dev,bel-na-c4e-demo-pipeline101-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 13:02:24.196000,0
+Customer,na-test,bel-na-sfl-subscriber-payments-prc-v1-tst,STARTED,0.1,2023-02-09 14:21:22.245000,63
+Finance,na-test,bel-na-gbl-collection-notes-prc-v1-tst,STARTED,0.1,2023-01-25 09:55:31.778000,0
+Safelite US,na-dev,bel-na-sfl-eft-sys-v1-dev,STARTED,0.1,2023-01-26 11:21:10.928000,0
+C4E,na-dev,bel-na-c4e-imdm-location-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 14:22:09.531000,0
+Finance,na-test,bel-na-gbl-open-ar-prc-v1-tst,STARTED,0.1,2023-01-25 10:07:19.163000,0
+Safelite US,na-dev,bel-na-sfl-safelitebatch-exp-v1-dev,STARTED,0.1,2023-01-26 11:31:29.793000,702
+C4E,na-dev,bel-na-c4e-gitlab-variables-exp-v1-dev,STARTED,0.1,2023-01-26 15:03:35.832000,0
+Finance,na-test,activemq-fin-tst,STARTED,0.1,2023-02-16 12:16:10.184000,9
+Safelite US,na-dev,email-notifications-framework,UNDEPLOYED,0.1,2023-01-26 11:33:24.596000,0
+C4E,na-dev,bel-na-c4e-platform-app-monitor-exp-v1-dev,STARTED,0.1,2023-01-26 15:25:30.574000,210
+Finance,na-test,bel-na-gbl-fx-rate-refnv-sys-v1-tst,STARTED,0.1,2023-01-25 12:14:28.801000,248
+Safelite US,na-dev,bel-na-sfl-biww-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 11:46:29.649000,0
+C4E,na-dev,bel-na-c4e-imdm-product-exp-v1-dev,STARTED,0.1,2023-01-26 16:40:14.825000,0
+Finance,na-test,bel-na-gbl-credit-manager-prc-v1-tst,STARTED,0.1,2023-01-31 09:42:59.581000,0
+Safelite US,na-dev,bel-na-sfl-realestatefacility-prc-v1-dev,STARTED,0.1,2023-01-26 13:18:50.060000,0
+C4E,na-dev,bel-na-c4e-pipeline-test-exp-dev,UNDEPLOYED,0.1,2023-01-26 16:54:03.149000,0
+Finance,na-test,bel-na-gbl-credit-issuer-prc-v1-tst,STARTED,0.1,2023-01-31 09:43:21.743000,7
+Safelite US,na-dev,bel-na-sfl-purchaseorder-prc-v1-dev,STARTED,0.2,2023-01-26 13:31:47.368000,0
+Customer,na-dev,bel-na-gbl-sfdc-shifts-sys-v1-dev,STARTED,0.1,2023-01-24 09:56:43.274000,4
+C4E,na-dev,bel-na-c4e-fsl-techassigned-prc-v1-dev,UNDEPLOYED,0.1,2023-01-26 17:14:45.704000,0
+Finance,na-test,bel-na-gbl-fx-rate-prc-v1-tst,STARTED,0.1,2023-01-25 13:01:11.135000,31
+Safelite US,na-dev,bel-na-sfl-vanguard-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 13:31:32.248000,0
+Customer,na-dev,bel-na-gbl-int-exp-v1-dev,UNDEPLOYED,0.1,2023-01-24 10:05:41.675000,0
+C4E,na-dev,bel-na-c4e-fsl-techassignment-prc-v1-dev,UNDEPLOYED,0.1,2023-01-26 17:33:03.521000,0
+Finance,na-test,bel-na-gbl-invoices-ofcf-sys-v1-tst,STARTED,0.1,2023-02-10 14:19:24.390000,10912
+Safelite US,na-dev,bel-na-sfl-alight-sys-v1-dev,STARTED,0.1,2023-02-13 08:17:33.261000,495
+Customer,na-dev,bel-na-gbl-int-exp-v2-dev,UNDEPLOYED,0.1,2023-01-24 10:17:19.599000,0
+C4E,na-dev,bel-na-gbl-event-publisher-exp-v1-dev,STARTED,0.1,2023-01-26 18:38:51.829000,201703
+Finance,na-test,bel-na-sfl-fdrl-reserve-prc-v1-tst,STARTED,0.1,2023-02-14 06:09:32.473000,0
+Safelite US,na-dev,bel-na-sfl-origami-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 13:58:15.500000,0
+Customer,na-dev,bel-na-gbl-subscriber-products-prc-v1-dev,STARTED,0.1,2023-02-04 07:32:16.831000,7
+C4E,na-dev,bel-na-c4e-imdm-location-sys-v1-dev,STARTED,0.1,2023-01-26 19:02:49.449000,2
+Finance,na-test,bel-na-gbl-ap-invoice-prc-v1-tst,STARTED,0.1,2023-02-16 20:27:32.323000,1923
+Safelite US,na-dev,bel-na-sfl-paylogix-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 14:07:44.299000,0
+Customer,na-dev,bel-na-gbl-int-exp-v3-dev,STARTED,0.1,2023-01-24 11:14:45.102000,2
+C4E,na-dev,bel-na-c4e-pipeline-test301-exp-v1-dev,STARTED,0.1,2023-01-26 19:14:03.636000,0
+Finance,na-test,bel-na-gbl-ledger-balance-prc-v1-tst,STARTED,0.1,2023-02-13 11:01:56.824000,118
+Safelite US,na-dev,bel-na-sfl-tango-sys-v1-dev,UNDEPLOYED,0.1,2023-02-07 18:28:10.125000,3
+Customer,na-dev,bel-na-esl-schdule-exp-v1-dev,UNDEPLOYED,0.1,2023-01-24 11:21:29.033000,0
+C4E,na-dev,belron-api-template-v1-dev,UNDEPLOYED,0.1,2023-01-26 19:48:44.733000,0
+Finance,na-test,bel-na-gbl-bulk-process-aplan-sys-v1-tst,STARTED,0.1,2023-01-25 13:57:01.988000,472
+Customer,na-dev,bel-na-gbl-sfdc-eventbus-sys-v1-dev,UNDEPLOYED,0.1,2023-01-24 11:43:10.789000,0
+Safelite US,na-dev,bel-na-sfl-imagewear-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 14:28:54.672000,0
+C4E,na-dev,bel-na-c4e-hello-world-1234-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 19:55:22.197000,0
+Finance,na-test,bel-na-gbl-lease-management-prc-v1-tst,STARTED,0.1,2023-02-07 15:32:10.084000,11337
+Customer,na-dev,bel-na-gbl-sfdc-work-order-sys-v1-dev,UNDEPLOYED,0.1,2023-01-24 11:53:19.108000,0
+Safelite US,na-dev,bel-na-sfl-realestatemgmt-prc-v1-dev,STARTED,0.1,2023-01-26 14:41:25.587000,0
+C4E,na-dev,bel-na-c4e-devops-test-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 20:40:06.812000,0
+Finance,na-test,bel-na-gbl-banks-ofcf-sys-v1-tst,STARTED,0.1,2023-01-25 14:58:44.752000,0
+Customer,na-dev,bel-na-gbl-sfdc-location-sys-v1-dev,UNDEPLOYED,0.1,2023-01-24 12:35:33.737000,0
+Safelite US,na-dev,bel-na-sfl-batchrealestatemgmt-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 14:54:37.895000,0
+C4E,na-dev,bel-na-gbl-amq-console-exp-v1-dev,STARTED,0.1,2023-02-14 10:35:23.692000,10088
+Finance,na-test,bel-na-gbl-customer-extract-sys-v1-tst,STARTED,0.1,2023-01-26 17:20:22.264000,30
+Customer,na-dev,bel-na-gbl-sfdc-appointment-sys-v1-dev,UNDEPLOYED,0.1,2023-01-24 13:24:41.601000,0
+Safelite US,na-dev,bel-na-sfl-edflo-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 16:28:04.749000,0
+C4E,na-dev,bel-na-gbl-net-tools-exp-v1-dev,STARTED,0.1,2023-01-26 21:24:57.787000,23
+Finance,na-test,bel-na-gbl-supplier-extract-sys-v1-tst,STARTED,0.1,2023-01-25 15:23:24.766000,70
+Customer,na-dev,bel-na-gbl-subscriber-locations-prc-v1-dev,UNDEPLOYED,0.1,2023-02-03 07:07:06.600000,104
+Safelite US,na-dev,bel-na-sfl-equifax-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 16:39:40.877000,0
+C4E,na-dev,bel-na-gbl-subscriber-products-prc-v2-dev,UNDEPLOYED,0.1,2023-01-26 21:39:28.381000,0
+Finance,na-test,bel-na-gbl-inv-claim-prc-v1-tst,STARTED,0.1,2023-02-15 10:34:37.598000,6
+Safelite US,na-dev,bel-na-sfl-adp-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 16:47:42.617000,0
+Customer,na-dev,bel-na-gbl-int-exp-v4-dev,UNDEPLOYED,0.1,2023-01-24 13:40:37.619000,0
+Finance,na-test,bel-na-gbl-ar-invoice-prc-v1-tst,STARTED,0.1,2023-02-13 11:19:15.894000,53
+Safelite US,na-dev,bel-na-sfl-reed-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 17:02:13.069000,0
+Customer,na-dev,bel-na-gbl-service-validate-exp-v1-dev,STARTED,0.1,2023-01-24 13:51:48.589000,0
+Finance,na-test,bel-na-gbl-payment-ofcf-sys-v1-tst,STARTED,0.1,2023-01-25 16:09:07.382000,16
+C4E,eu-prod,bel-eu-gbl-helloworld-exp-v1-prd,STARTED,0.1,2023-01-28 21:50:41.560000,0
+Customer,na-dev,bel-na-gbl-sfdc-motorist-sys-v1-dev,UNDEPLOYED,0.1,2023-01-24 14:28:24.020000,0
+Safelite US,na-dev,bel-na-sfl-scheduler-oms-v1-dev,UNDEPLOYED,0.1,2023-01-26 17:15:56.603000,0
+Finance,na-test,bel-na-gbl-receipt-ofcf-sys-v1-tst,STARTED,0.1,2023-02-16 15:44:29.254000,358
+C4E,eu-prod,bel-eu-gbl-helloworld-prc-v1-prd,STARTED,0.1,2023-01-28 21:59:59.777000,0
+Customer,na-dev,bel-na-sfl-sv2-communication-sys-v1-dev,STARTED,0.1,2023-01-24 14:36:14.770000,24
+Safelite US,na-dev,bel-na-sfl-oms-callback-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 19:32:20.889000,0
+Finance,na-test,bel-na-gbl-customer-ofcf-sys-v1-tst,STARTED,0.1,2023-02-10 14:28:41.201000,212
+C4E,eu-prod,bel-eu-gbl-helloworld-sys-v1-prd,STARTED,0.1,2023-01-28 22:12:13.742000,0
+Customer,na-dev,bel-na-gbl-sfdc-workorder-sys-v1-dev,UNDEPLOYED,0.1,2023-01-24 14:51:39.688000,0
+Safelite US,na-dev,bel-na-sfl-sqs-sys-v1-dev,STARTED,0.1,2023-01-26 19:49:39.651000,188
+Finance,na-test,bel-na-gbl-voucher-status-prc-v1-tst,STARTED,0.1,2023-02-07 09:54:30.989000,3
+C4E,eu-prod,bel-eu-c4e-amazon-exp-v1-prod,STARTED,0.1,2023-01-29 03:27:56.377000,0
+Customer,na-dev,bel-na-sfl-esl-updates-sys-v1-dev,STARTED,0.1,2023-01-24 15:19:10.340000,2748
+Safelite US,na-dev,bel-na-sfl-promotions-exp-v1-dev,UNDEPLOYED,0.1,2023-01-26 19:55:42.734000,0
+Finance,na-test,bel-na-gbl-pay-after-prc-v1-tst,STARTED,0.1,2023-02-13 10:57:28.958000,37
+C4E,eu-prod,bel-eu-c4e-pipeline-test-exp-prd,STARTED,0.1,2023-01-28 23:00:01.292000,0
+Safelite US,na-dev,bel-na-sfl-communication-prc-v1-dev,STARTED,0.1,2023-01-26 20:07:48.741000,2109
+Customer,na-dev,bel-na-sfl-workorder-digital-exp-v1-dev,STARTED,0.1,2023-01-24 15:28:43.152000,0
+Finance,na-test,bel-na-gbl-ar-receipts-prc-v1-tst,STARTED,0.1,2023-02-15 09:05:37.443000,45
+C4E,eu-prod,bel-eu-c4e-demo-pipeline101-exp-v1-prd,STARTED,0.1,2023-01-28 23:27:40.322000,0
+Safelite US,na-dev,bel-na-sfl-edix12validator-exp-v1-dev,STARTED,0.1,2023-01-26 20:42:46.716000,0
+Customer,na-dev,bel-na-sfl-sf-workorder-exp-v1-dev,STARTED,0.1,2023-01-24 15:36:26.467000,3440
+Finance,na-test,bel-na-gbl-adjust-debitmemo-prc-v1-tst,STARTED,0.1,2023-01-30 11:21:55.130000,32
+C4E,eu-prod,bel-eu-gbl-net-tools-exp-v1-prd,STARTED,0.1,2023-01-29 00:43:33.401000,55
+Safelite US,na-dev,bel-na-sfl-element-sys-v1-dev,STARTED,0.1,2023-01-30 13:50:52.271000,211
+Customer,na-dev,bel-na-gbl-order-prc-v1-dev,STARTED,0.1,2023-02-08 08:26:18.651000,0
+Finance,na-test,bel-na-gbl-receipt-upload-prc-v1-tst,STARTED,0.1,2023-02-13 12:16:41.576000,140
+C4E,eu-prod,bel-eu-c4e-pipeline-test-exp-v1-prd,STARTED,0.1,2023-01-29 01:17:50.683000,0
+Safelite US,na-dev,bel-na-sfl-partsseldigital-exp-v1-dev,STARTED,0.1,2023-01-26 20:51:20.047000,0
+Customer,na-dev,bel-na-sfl-workorder-digital-prc-v1-dev,STARTED,0.1,2023-01-24 15:56:24.765000,5169
+Finance,na-test,bel-na-gbl-adjustments-upload-prc-v1-tst,STARTED,0.1,2023-02-14 05:53:10.534000,31
+C4E,eu-prod,bel-eu-c4e-pipeline-test1-exp-v1-prd,STARTED,0.1,2023-01-29 01:55:20.090000,0
+Safelite US,na-dev,bel-na-sfl-partsselection-prc-v1-dev,UNDEPLOYED,0.1,2023-01-26 20:52:52.462000,0
+Customer,na-dev,bel-na-sfl-subscriber-punches-prc-v1-dev,STARTED,0.1,2023-01-24 16:24:43.019000,0
+Finance,na-test,bel-na-gbl-adjustments-ofcf-sys-v1-tst,STARTED,0.1,2023-01-17 12:09:59.482000,56
+Safelite US,na-dev,digital-wom-prc-api,UNDEPLOYED,0.1,2023-01-26 21:04:30.600000,0
+Customer,na-dev,bel-na-sfl-krns-punches-sys-v1-dev,UNDEPLOYED,0.1,2023-01-24 16:39:11.720000,0
+Finance,na-test,bel-na-gbl-general-ledger-ofcf-sys-v1-tst,STARTED,0.1,2023-02-01 12:47:49.670000,28
+C4E,na-uat,bel-na-gbl-event-publisher-exp-v1-uat,STARTED,0.1,2023-01-26 21:31:10.335000,70743
+Customer,na-dev,bel-na-sfl-fsl-orderupdates-prc-v1-dev,STARTED,0.1,2023-01-24 16:59:00.927000,2903
+Safelite US,na-dev,digital-wom-prc-api-new-temp,UNDEPLOYED,0.1,2023-01-26 21:09:57.143000,0
+Finance,na-test,bel-na-gbl-subscriber-ap-inv-prc-v1-tst,STARTED,0.1,2023-02-15 13:31:35.154000,274
+Customer,na-dev,bel-na-gbl-sfdc-motorist-sys-v2-dev,STARTED,0.1,2023-02-04 10:21:06.763000,6
+Safelite US,na-dev,bel-na-sfl-vehicleseldigital-exp-v1-dev,STARTED,0.1,2023-01-26 21:26:11.957000,0
+Finance,na-test,bel-na-gbl-imdm-motorist-sys-v1-tst,STARTED,0.1,2023-02-07 09:22:00.980000,0
+Customer,na-dev,bel-na-sfl-order-prc-v1-dev,STARTED,0.1,2023-02-08 08:27:43.036000,11418
+Safelite US,na-dev,bel-na-sfl-vehicleseldigital-prc-v1-dev,STARTED,0.1,2023-01-26 21:29:57.645000,0
+C4E,apac-prod,bel-apac-c4e-amazon-exp-v1-prd,STARTED,0.1,2023-01-28 12:49:12.784000,0
+Finance,na-test,bel-na-gbl-account-enrich-prc-v1-tst,STARTED,0.1,2023-02-15 08:09:49.172000,0
+Customer,na-dev,bel-na-sfl-gqi-prc-v1-dev,STARTED,0.1,2023-01-24 17:52:53.198000,277
+Safelite US,na-dev,bel-na-sfl-userfeedutility-prc-v1-dev,UNDEPLOYED,0.1,2023-01-26 21:40:07.842000,0
+C4E,apac-prod,bel-apac-c4e-helloworld-exp-v1-prd,UNDEPLOYED,0.1,2023-01-28 12:54:12.553000,0
+Finance,na-test,bel-na-gbl-imdm-accounts-sys-v1-tst,STARTED,0.1,2023-02-10 13:53:26.425000,0
+Customer,na-dev,bel-na-gbl-sfdc-job-work-order-sys-v1-dev,UNDEPLOYED,0.1,2023-01-24 18:00:35.914000,0
+C4E,apac-prod,bel-apac-c4e-helloworld-prc-v1-prd,STARTED,0.1,2023-01-28 13:13:05.521000,0
+Safelite US,na-dev,bel-na-sfl-locations-prc-v1-dev,UNDEPLOYED,0.1,2023-01-26 21:52:08.518000,0
+Finance,na-test,bel-na-gbl-subscriber-customers-prc-v1-tst,STARTED,0.1,2023-02-10 14:10:07.279000,0
+Customer,na-dev,bel-na-sfl-service-tracker-sys-v1-dev,STARTED,0.1,2023-01-24 19:50:42.646000,3300
+C4E,apac-prod,bel-apac-c4e-helloworld-sys-v1-prd,STARTED,0.1,2023-01-28 13:20:21.336000,0
+Safelite US,na-dev,bel-na-sfl-notification-prc-v1-dev,STARTED,0.1,2023-01-26 22:04:33.287000,0
+Finance,na-test,bel-na-gbl-customer-mdm-enrich-prc-v1-tst,STARTED,0.1,2023-02-15 08:49:47.004000,2
+Customer,na-dev,bel-na-sfl-documents-comm-prc-v1-dev,STARTED,0.1,2023-02-08 02:28:47.873000,3335
+C4E,apac-prod,bel-apac-gbl-net-tools-exp-v1-prd,STARTED,0.1,2023-01-28 13:31:54.913000,71
+Safelite US,na-dev,bel-na-sfl-locationsdigital-exp-v1-dev,STARTED,0.1,2023-01-26 22:39:40.800000,0
+Customer,na-dev,bel-na-sfl-documents-prc-v1-dev,STARTED,0.1,2023-02-08 02:30:27.061000,1407
+C4E,apac-prod,bel-apac-c4e-pipeline-test201-exp-v2-prd,STARTED,0.1,2023-01-28 15:25:47.571000,0
+Safelite US,na-dev,bel-na-sfl-gmft-sys-v1-dev,STARTED,0.1,2023-01-26 22:49:21.110000,0
+Customer,na-dev,bel-na-gbl-entegral-sys-v1-dev,STARTED,0.1,2023-02-07 10:32:58.443000,40
+Safelite US,na-dev,sample-log,UNDEPLOYED,0.1,2023-01-26 22:48:21.129000,0
+C4E,apac-prod,bel-apac-gbl-amq-console-exp-v1-prd,STARTED,0.1,2023-02-10 12:04:34.984000,783
+Customer,na-dev,bel-na-sfl-service-tracker-prc-v1-dev,STARTED,0.1,2023-01-24 20:55:02.176000,7114
+Finance,na-test,bel-na-gbl-motorist-invoice-prc-v1-tst,STARTED,0.1,2023-02-10 15:57:08.101000,3
+Safelite US,na-dev,hello-world-test-safelite,UNDEPLOYED,0.1,2023-01-26 22:54:26.344000,0
+Customer,na-dev,bel-na-sfl-techvan-prc-v1-dev,STARTED,0.1,2023-02-16 14:14:42.116000,0
+Finance,na-test,bel-na-gbl-subscriber-accounts-prc-v1-tst,STARTED,0.1,2023-02-10 16:12:59.411000,65
+Safelite US,na-dev,objectstoredb,STARTED,0.1,2023-01-26 23:10:26.447000,0
+Customer,na-dev,bel-na-sfl-scheduling-esl-sys-v1-dev,STARTED,0.1,2023-01-24 22:00:33.132000,984
+Safelite US,na-dev,objectstorepoc20k,UNDEPLOYED,0.1,2023-01-26 23:11:24.001000,0
+Customer,na-dev,bel-na-gbl-aws-s3-sys-v1-dev,STARTED,0.1,2023-01-24 22:13:24.839000,1342
+Safelite US,na-dev,bel-na-sfl-esri-sys-v1-dev,UNDEPLOYED,0.1,2023-01-26 23:18:04.608000,0
+Customer,na-dev,bel-na-gbl-sfdc-job-appointment-sys-v1-dev,UNDEPLOYED,0.1,2023-01-24 22:19:17.124000,0
+Finance,na-prod,bel-na-gbl-ap-invoice-prc-v1-prd,UNDEPLOYED,0.1,2023-01-29 08:20:56.559000,0
+Safelite US,na-dev,bel-na-sfl-mrmapiproxyv2-exp-v1-dev,STARTED,0.1,2023-01-26 23:28:47.439000,1040
+Customer,na-dev,bel-na-sfl-workorder-ro-esl-sys-v1-dev,STARTED,0.1,2023-01-24 23:01:35.321000,23167
+Finance,na-prod,bel-na-gbl-motorist-invoice-prc-v1-prd,UNDEPLOYED,0.1,2023-02-06 13:49:39.402000,0
+Safelite US,na-dev,bel-na-sfl-mrmapi-prc-v1-dev,STARTED,0.1,2023-01-26 23:38:23.009000,1092
+Customer,na-dev,bel-na-gbl-sfdc-workers-sys-v1-dev,UNDEPLOYED,0.1,2023-01-24 23:56:06.146000,0
+Safelite US,na-dev,bel-na-sfl-hireright-sys-v1-dev,STARTED,0.2,2023-01-26 23:41:30.038000,0
+Customer,na-dev,bel-na-gbl-entegral-prc-v1-dev,STARTED,0.1,2023-02-16 18:50:11.727000,25
+Safelite US,na-dev,bel-na-sfl-eworkorder-exp-v1-dev,STARTED,0.1,2023-01-26 23:53:45.218000,0
+Customer,na-dev,bel-na-gbl-entegral-exp-v1-dev,STARTED,0.1,2023-02-08 05:52:13.659000,16
+Safelite US,na-dev,bel-na-sfl-eworkorder-prc-v1-dev,STARTED,0.1,2023-01-26 23:55:44.152000,0
+Customer,na-dev,bel-na-gbl-gmft-exp-v1-dev,STARTED,0.1,2023-02-15 10:26:59.253000,22
+Safelite US,na-dev,commdemo,STARTED,0.1,2023-01-27 00:09:38.188000,0
+Customer,na-dev,bel-na-gbl-documents-exp-v1-dev,STARTED,0.1,2023-02-02 02:30:42.412000,1041
+Safelite US,na-dev,bel-na-sfl-warehouse-mgmt-exp-v1-dev,STARTED,0.1,2023-02-07 09:17:53.203000,51
+Customer,na-dev,bel-na-sfl-krns-shifts-prc-v1-dev,STARTED,0.1,2023-02-15 15:28:47.987000,105
+Safelite US,na-dev,bel-na-sfl-mrmapiproxyv2-exp-v2-dev,STARTED,0.1,2023-01-27 00:39:21.062000,0
+Customer,na-dev,bel-na-gbl-oauth-poc-exp-v1-dev,STARTED,0.1,2023-01-25 03:51:01.270000,0
+Safelite US,na-dev,bel-na-sfl-mrmapi-prc-v2-dev,STARTED,0.1,2023-01-27 00:44:11.199000,0
+Customer,na-dev,bel-na-sfl-scheduling-exp-v1-dev,STARTED,0.1,2023-01-25 04:17:50.864000,0
+Safelite US,na-dev,bel-na-sfl-mrm-s3-presigned-api-v1-dev,STARTED,0.1,2023-01-27 00:47:34.287000,0
+Customer,na-dev,bel-na-sfl-scheduling-prc-v1-dev,STARTED,0.1,2023-01-25 04:25:03.979000,672
+Safelite US,na-dev,bel-na-sfl-tango-sys-v2-dev,STARTED,0.1,2023-02-01 14:53:31.113000,1391
+Customer,na-dev,bel-na-sfl-milestones-prc-v1-dev,STARTED,0.1,2023-01-25 04:40:39.089000,2998
+Safelite US,na-dev,bel-na-sfl-ccis-rs-sys-v1-dev,STARTED,0.1,2023-02-06 08:03:24.868000,635
+Customer,na-dev,bel-na-gbl-sfdc-motorist-sys-v01-dev,UNDEPLOYED,0.1,2023-01-25 07:16:16.199000,0
+Safelite US,na-dev,bel-na-sfl-ccis-exp-v1-dev,STARTED,0.1,2023-01-17 10:53:08.983000,1899
+Customer,na-dev,bel-na-sfl-sfscheduling-exp-v1-dev,STARTED,0.1,2023-01-25 09:20:15.831000,0
+Safelite US,na-dev,bel-na-sfl-shortenurlproxy-exp-v1-dev,STARTED,0.1,2023-01-27 01:54:54.023000,1238
+Customer,na-dev,bel-na-gbl-sfdc-appointment-sys-v06-dev,UNDEPLOYED,0.1,2023-01-25 10:58:17.127000,0
+Safelite US,na-dev,bel-na-sfl-sfdc-opt-ref-wo-exp-v1-dev,UNDEPLOYED,0.1,2023-01-27 01:53:11.832000,0
+Customer,na-dev,bel-na-sfl-workordermgmt-sys-v1-dev,STARTED,0.1,2023-01-25 14:44:26.228000,4
+Safelite US,na-dev,bel-na-sfl-coupaproxy-exp-v1-dev,STARTED,0.1,2023-01-27 02:11:06.901000,0
+Customer,na-dev,bel-na-sfl-esl-payments-sys-v1-dev,STARTED,0.1,2023-01-25 14:54:02.561000,8
+Safelite US,na-dev,connectivitytst,UNDEPLOYED,0.1,2023-01-27 02:15:49.714000,0
+Safelite US,na-dev,bel-na-sfl-supply-chain-ping-exp-v1-dev,STARTED,0.1,2023-01-27 02:30:28.690000,0
+Customer,na-dev,bel-na-sfl-subscriber-payments-prc-v1-dev,STARTED,0.1,2023-02-09 13:38:22.260000,3
+Safelite US,na-dev,bel-na-sfl-boschapi-exp-v1-dev,STARTED,0.1,2023-02-08 21:23:10.886000,0
+Customer,na-dev,bel-na-gbl-sfdc-workers-sys-v2-dev,STARTED,0.1,2023-02-05 12:22:38.833000,46
+Safelite US,na-dev,bel-na-sfl-astechapi-exp-v1-dev,STARTED,0.1,2023-02-08 21:25:52.615000,0
+Customer,na-dev,bel-na-gbl-documents-exp-v2-dev,STARTED,0.1,2023-01-27 06:22:14.221000,285
+Safelite US,na-dev,bel-na-sfl-docstore-sys-v1-dev,STARTED,0.1,2023-01-27 03:22:20.961000,0
+Customer,na-dev,bel-na-gbl-sfdc-job-appointment-sys-v2-dev,STARTED,0.1,2023-01-25 17:05:57.124000,26
+Safelite US,na-dev,bel-na-sfl-cn-exp-v1-dev,STARTED,0.1,2023-01-27 03:27:49.893000,0
+Customer,na-dev,bel-na-gbl-sfdc-eventbus-sys-v2-dev,STARTED,0.1,2023-02-04 10:39:52.728000,32
+Safelite US,na-dev,bel-na-sfl-service-channel-exp-v1-dev,UNDEPLOYED,0.1,2023-01-27 03:33:07.535000,0
+Customer,na-dev,bel-na-gbl-sfdc-job-appointment-sys-v3-dev,UNDEPLOYED,0.1,2023-01-25 17:56:49.162000,0
+Safelite US,na-dev,bel-na-sfl-sfdc-invoiceapi-prc-v1-dev,STARTED,0.1,2023-01-27 03:43:41.244000,0
+Customer,na-dev,bel-na-gbl-sfdc-work-order-sys-v2-dev,UNDEPLOYED,0.1,2023-01-30 07:59:51.561000,0
+Safelite US,na-dev,bel-na-sfl-oracle-nps-survey-prc-v1-dev,STARTED,0.1,2023-01-27 03:49:15.197000,0
+Customer,na-dev,bel-na-gbl-sfdc-location-sys-v2-dev,STARTED,0.1,2023-01-30 10:05:57.363000,310
+Safelite US,na-dev,bel-na-sfl-tvqwarrantybatch-prc-v1-dev,STARTED,0.1,2023-01-27 03:54:22.967000,0
+Customer,na-dev,bel-na-gbl-sfdc-motorist-sys-v04-dev,UNDEPLOYED,0.1,2023-01-17 08:47:34.423000,0
+Safelite US,na-dev,bel-na-sfl-sfdc-optout-exp-v1-dev,UNDEPLOYED,0.1,2023-01-27 03:53:12.320000,0
+Customer,na-dev,bel-na-gbl-subscriber-locations-prc-v2-dev,STARTED,0.1,2023-02-16 09:26:29.527000,50
+Safelite US,na-dev,bel-na-sfl-sfdc-referral-exp-v1-dev,UNDEPLOYED,0.1,2023-01-27 03:55:58.111000,0
+Customer,na-dev,bel-na-gbl-sfdc-job-work-order-sys-v2-dev,STARTED,0.1,2023-02-16 12:55:18.140000,45
+Safelite US,na-dev,bel-na-sfl-sfdc-workorder-exp-v1-dev,STARTED,0.1,2023-01-27 04:08:59.647000,0
+Safelite US,na-dev,bel-na-sfl-serviceissuetodw-prc-v1-dev,STARTED,0.1,2023-01-27 04:13:27.666000,0
+Safelite US,na-dev,bel-na-sfl-networkshophierarchy-prc-v1-dev,STARTED,0.1,2023-01-27 04:16:28.083000,0
+Safelite US,na-dev,bel-na-sfl-testalert-sys-v1-dev,UNDEPLOYED,0.1,2023-01-27 04:19:59.664000,0
+Safelite US,na-dev,bel-na-sfl-sfdc-exp-v1-dev,STARTED,0.1,2023-01-27 04:30:42.644000,0
+Safelite US,na-dev,kibana-poc,UNDEPLOYED,0.1,2023-01-27 04:30:03.605000,0
+Safelite US,na-dev,bel-na-sfl-connectivity-v1-dev,STARTED,0.1,2023-02-10 20:37:45.338000,311
+Safelite US,na-dev,pgp-encryption-decryption-poc,UNDEPLOYED,0.1,2023-01-27 04:53:10.661000,0
+Safelite US,na-dev,bel-na-sfl-amqcircuitbreaker-poc-v1-dev,STARTED,0.2,2023-01-27 05:02:42.228000,0
+Customer,na-uat,bel-na-sfl-workorder-ro-esl-sys-v1-uat,STARTED,0.1,2023-01-25 13:53:43.496000,110903
+Safelite US,na-dev,bel-na-sfl-vehicle-exp-v1-dev,STARTED,0.1,2023-02-12 02:43:07.033000,66
+Customer,na-uat,bel-na-sfl-krns-punches-sys-v1-uat,STARTED,0.1,2023-01-25 04:59:34.276000,76
+Safelite US,na-dev,bel-na-sfl-vehicle-sys-v1-dev,STARTED,0.1,2023-02-12 01:01:43.365000,269
+Customer,na-uat,bel-na-sfl-sv2-communication-sys-v1-uat,STARTED,0.1,2023-02-09 07:44:46.020000,0
+Safelite US,na-dev,bel-na-sfl-account-sys-v1-dev,STARTED,0.1,2023-02-06 13:52:52.638000,42
+Customer,na-uat,bel-na-sfl-fsl-orderupdates-prc-v1-uat,STARTED,0.1,2023-02-11 06:06:39.049000,0
+Safelite US,na-dev,bel-na-sfl-problem-question-sys-v1-dev,STARTED,0.1,2023-01-30 15:48:48.048000,511
+Customer,na-uat,bel-na-gbl-sfdc-location-sys-v02-uat,UNDEPLOYED,0.1,2023-01-25 05:36:46.009000,0
+Safelite US,na-dev,bel-na-sfl-account-exp-v1-dev,STARTED,0.1,2023-01-26 17:06:45.210000,0
+Customer,na-uat,bel-na-sfl-documents-prc-v1-uat,STARTED,0.1,2023-02-03 11:21:39.625000,22309
+Safelite US,na-dev,bel-na-sfl-ibm-sys-v1-dev,STARTED,0.1,2023-01-24 07:06:52.306000,14
+Customer,na-uat,bel-na-gbl-sfdc-appointment-sys-v02-uat,UNDEPLOYED,0.1,2023-01-25 06:00:39.845000,0
+Safelite US,na-dev,bel-na-sfl-problem-question-exp-v1-dev,STARTED,0.1,2023-01-30 17:20:25.373000,69
+Safelite US,na-dev,bel-na-sfl-vcd-sys-v1-dev,STARTED,0.1,2023-02-12 02:57:39.209000,130
+Customer,na-uat,bel-na-gbl-service-validate-exp-v02-uat,STARTED,0.1,2023-01-25 06:20:44.633000,1
+Safelite US,na-dev,bel-na-sfl-glass-sys-v1-dev,STARTED,0.1,2023-02-14 18:51:15.819000,184
+Customer,na-uat,bel-na-gbl-subscriber-location-prc-v02-uat,UNDEPLOYED,0.1,2023-01-25 06:20:05.097000,0
+Safelite US,na-dev,bel-na-sfl-email-validation-sys-v1-dev,STARTED,0.1,2023-02-10 19:09:29.080000,20
+Customer,na-uat,bel-na-gbl-subscriber-products-prc-v02-uat,UNDEPLOYED,0.1,2023-01-25 06:32:50.698000,0
+Safelite US,na-dev,bel-na-sfl-duplicatecheck-sys-v1-dev,STARTED,0.1,2023-02-15 18:36:55.981000,34
+Customer,na-uat,bel-na-gbl-sfdc-eventbus-sys-v02-uat,UNDEPLOYED,0.1,2023-01-25 06:46:41.736000,0
+Safelite US,na-dev,bel-na-sfl-sflapi-geo-loc-sys-v1-dev,STARTED,0.1,2023-02-16 21:54:31.789000,74
+Customer,na-uat,bel-na-gbl-aws-s3-sys-v1-uat,STARTED,0.1,2023-02-08 15:31:58.910000,17828
+Safelite US,na-dev,bel-na-sfl-sv2-crm-sys-v1-dev,STARTED,0.1,2023-02-15 15:15:26.130000,31
+Customer,na-uat,bel-na-sfl-scheduling-esl-sys-v1-uat,STARTED,0.1,2023-01-25 07:07:51.090000,15538
+Safelite US,na-dev,bel-na-sfl-sfdc-exp-v2-dev,STARTED,0.1,2023-02-16 03:06:27.791000,48
+Customer,na-uat,bel-na-sfl-service-tracker-sys-v1-uat,STARTED,0.1,2023-02-16 14:07:33.895000,0
+Safelite US,na-dev,bel-na-sfl-promotions-sys-v1-dev,UNDEPLOYED,0.1,2023-02-15 20:22:33.966000,0
+Customer,na-uat,bel-na-sfl-sf-workorder-exp-v1-uat,STARTED,0.1,2023-01-25 13:52:18.805000,48216
+Customer,na-uat,bel-na-gbl-gmft-exp-v1-uat,STARTED,0.1,2023-02-15 13:36:09.374000,0
+Customer,na-uat,bel-na-sfl-gqi-prc-v1-uat,STARTED,0.1,2023-01-25 07:59:45.318000,0
+Customer,na-uat,bel-na-sfl-subscriber-punches-prc-v1-uat,STARTED,0.1,2023-01-25 08:09:49.243000,0
+Customer,na-uat,bel-na-sfl-workorder-digital-prc-v1-uat,STARTED,0.1,2023-01-25 13:53:30.770000,72021
+Customer,na-uat,bel-na-sfl-workorder-digital-exp-v1-uat,STARTED,0.1,2023-01-25 13:53:04.079000,0
+Safelite US,na-prod,safelite-connectivity-api-ch-prod,UNDEPLOYED,0.1,2023-01-29 16:10:44.490000,0
+Customer,na-uat,bel-na-sfl-documents-comm-prc-v1-uat,STARTED,0.1,2023-02-08 18:28:43.077000,0
+Safelite US,na-prod,safelite-health-ch-prod,UNDEPLOYED,0.1,2023-01-29 16:19:15.546000,0
+Customer,na-uat,bel-na-gbl-order-prc-v1-uat,STARTED,0.1,2023-02-07 14:16:58.867000,18696
+Safelite US,na-prod,bel-na-sfl-location-prc-v1-prd,STARTED,0.1,2023-01-29 16:28:22.799000,90
+Customer,na-uat,bel-na-sfl-order-prc-v1-uat,STARTED,0.1,2023-02-16 18:53:13.256000,97459
+Safelite US,na-prod,bel-na-sfl-datawarehouse-sys-v1-prd,STARTED,0.1,2023-01-29 16:45:11.693000,90
+Customer,na-uat,bel-na-sfl-krns-shifts-prc-v1-uat,STARTED,0.2,2023-02-15 16:07:44.258000,0
+Safelite US,na-prod,bel-na-sfl-employee-prc-v1-prd,STARTED,0.2,2023-01-29 16:53:47.102000,17869
+Customer,na-uat,bel-na-sfl-scheduling-prc-v1-uat,STARTED,0.1,2023-01-25 09:58:34.214000,11424
+Safelite US,na-prod,bel-na-sfl-workday-sys-v1-prd,STARTED,0.2,2023-01-29 17:03:42.295000,174879
+Customer,na-uat,bel-na-sfl-scheduling-exp-v1-uat,STARTED,0.1,2023-01-25 12:04:05.883000,7933
+Safelite US,na-prod,bel-na-sfl-s3-sys-v1-prd,STARTED,0.2,2023-01-28 05:06:43.446000,0
+Customer,na-uat,bel-na-sfl-sfscheduling-exp-v1-uat,STARTED,0.1,2023-01-25 10:13:18.697000,0
+Safelite US,na-prod,bel-na-sfl-analytics-prc-v1-prd,STARTED,0.1,2023-01-28 05:19:07.479000,0
+Customer,na-uat,bel-na-gbl-sfdc-shifts-sys-v01-uat,STARTED,0.1,2023-01-25 10:39:16.336000,0
+Safelite US,na-prod,bel-na-sfl-servicechannel-sys-v1-prd,STARTED,0.1,2023-01-28 05:31:01.732000,91395
+Customer,na-uat,bel-na-gbl-sfdc-motorist-sys-v01-uat,UNDEPLOYED,0.1,2023-01-25 10:35:54.763000,0
+Safelite US,na-prod,bel-na-sfl-okta-sys-v1-prd,STARTED,0.1,2023-01-28 05:42:56.155000,2100
+Customer,na-uat,bel-na-gbl-sfdc-job-work-order-sys-v03-uat,UNDEPLOYED,0.1,2023-01-25 10:51:19.695000,0
+Safelite US,na-prod,bel-na-sfl-eft-sys-v1-prd,STARTED,0.1,2023-02-07 08:37:51.006000,232
+Customer,na-uat,bel-na-gbl-sfdc-workers-sys-v02-uat,UNDEPLOYED,0.1,2023-01-25 11:08:02.790000,0
+Safelite US,na-prod,bel-na-sfl-batcheft-exp-v1-prd,STARTED,0.1,2023-01-28 06:01:46.664000,58
+Customer,na-uat,bel-na-gbl-int-exp-v3-uat,UNDEPLOYED,0.1,2023-01-25 11:20:07.261000,0
+Safelite US,na-prod,bel-na-sfl-safelitebatch-exp-v1-prd,STARTED,0.1,2023-01-28 06:12:25.960000,1357
+Customer,na-uat,bel-na-gbl-sfdc-workers-sys-v03-uat,UNDEPLOYED,0.1,2023-01-25 11:33:38.566000,0
+Safelite US,na-prod,bel-na-sfl-realestatefacility-exp-v1-prd,STARTED,0.1,2023-01-28 06:18:43.064000,618
+Customer,na-uat,bel-na-gbl-sfdc-appointment-sys-v03-uat,UNDEPLOYED,0.1,2023-01-25 11:38:24.532000,0
+Safelite US,na-prod,bel-na-sfl-realestatefacility-prc-v1-prd,STARTED,0.1,2023-01-28 06:29:02.470000,150
+Customer,na-uat,bel-na-sfl-service-tracker-prc-v1-uat,STARTED,0.1,2023-02-03 18:04:37.208000,0
+Safelite US,na-prod,bel-na-sfl-vanguard-sys-v1-prd,STARTED,0.1,2023-01-28 06:40:04.561000,2454
+Customer,na-uat,bel-na-gbl-sfdc-appointment-sys-v01-uat,UNDEPLOYED,0.1,2023-01-25 11:56:25.675000,0
+Safelite US,na-prod,bel-na-sfl-alight-sys-v1-prd,STARTED,0.1,2023-01-28 06:55:21.325000,5235
+Customer,na-uat,bel-na-gbl-subscriber-location-prc-v03-uat,UNDEPLOYED,0.1,2023-01-25 12:18:20.644000,0
+Safelite US,na-prod,bel-na-sfl-biww-sys-v1-prd,STARTED,0.1,2023-01-28 07:01:55.274000,1971
+Customer,na-uat,bel-na-gbl-subscriber-products-prc-v03-uat,UNDEPLOYED,0.1,2023-01-25 12:37:08.233000,0
+Safelite US,na-prod,bel-na-sfl-origami-sys-v1-prd,STARTED,0.1,2023-01-28 07:15:52.420000,15188
+Customer,na-uat,bel-na-gbl-sfdc-eventbus-sys-v03-uat,UNDEPLOYED,0.1,2023-01-25 12:48:17.428000,0
+Safelite US,na-prod,bel-na-sfl-paylogix-sys-v1-prd,STARTED,0.1,2023-01-28 07:20:27.796000,1956
+Customer,na-uat,bel-na-gbl-sfdc-motorist-sys-v03-uat,UNDEPLOYED,0.1,2023-01-25 13:00:45.735000,0
+Safelite US,na-prod,bel-na-sfl-equifax-sys-v1-prd,STARTED,0.1,2023-01-28 07:34:55.458000,0
+Customer,na-uat,bel-na-gbl-sfdc-location-sys-v03-uat,STARTED,0.1,2023-01-25 13:10:26.972000,150949
+Safelite US,na-prod,bel-na-sfl-imagewear-sys-v1-prd,STARTED,0.1,2023-01-28 07:39:28.232000,1944
+Customer,na-uat,bel-na-gbl-documents-exp-v03-uat,STARTED,0.1,2023-01-27 09:02:32.939000,15532
+Safelite US,na-prod,bel-na-sfl-edflo-sys-v1-prd,STARTED,0.1,2023-01-28 07:51:44.572000,2455
+Customer,na-uat,bel-na-sfl-techvan-prc-v1-uat,STARTED,0.1,2023-02-16 14:14:41.799000,0
+Safelite US,na-prod,bel-na-sfl-adp-sys-v1-prd,STARTED,0.1,2023-01-28 07:59:59.546000,246
+Customer,na-uat,bel-na-gbl-sfdc-job-appointment-sys-v3-uat,UNDEPLOYED,0.1,2023-02-15 05:08:45.938000,0
+Customer,na-uat,bel-na-gbl-sfdc-motorist-sys-v04-uat,STARTED,0.1,2023-02-05 08:48:21.456000,16457
+Safelite US,na-prod,bel-na-sfl-reed-sys-v1-prd,STARTED,0.1,2023-01-28 08:07:53.299000,2442
+Customer,na-uat,bel-na-gbl-sfdc-eventbus-sys-v04-uat,UNDEPLOYED,0.1,2023-02-06 05:54:01.890000,0
+Safelite US,na-prod,safelite-health-prd,UNDEPLOYED,0.1,2023-01-28 08:16:29.941000,0
+Customer,na-uat,bel-na-gbl-subscriber-products-prc-v04-uat,UNDEPLOYED,0.1,2023-02-06 05:43:31.734000,0
+Safelite US,na-prod,bel-na-sfl-element-sys-v1-prd,STARTED,0.1,2023-02-09 10:06:07.432000,12336
+Customer,na-uat,bel-na-gbl-subscriber-location-prc-v04-uat,UNDEPLOYED,0.1,2023-01-25 19:56:06.673000,0
+Safelite US,na-prod,bel-na-sfl-userfeedutility-prc-v1-prd,STARTED,0.1,2023-01-28 08:43:53.503000,0
+Customer,na-uat,bel-na-gbl-sfdc-workers-sys-v04-uat,STARTED,0.1,2023-02-16 06:21:18.765000,115156
+Safelite US,na-prod,bel-na-sfl-communication-prc-v1-prd,STARTED,0.1,2023-01-28 08:50:18.247000,2169
+Customer,na-uat,bel-na-gbl-sfdc-appointment-sys-v04-uat,STARTED,0.1,2023-01-25 20:24:50.927000,3969
+Safelite US,na-prod,bel-na-sfl-tango-sys-v1-prd,STARTED,0.1,2023-01-28 09:05:52.446000,3708
+Customer,na-uat,bel-na-gbl-sfdc-job-work-order-sys-v04-uat,STARTED,0.1,2023-02-13 18:05:24.301000,52081
+Safelite US,na-prod,bel-na-sfl-realestatemgmt-prc-v1-prd,STARTED,0.1,2023-02-08 11:26:24.324000,907
+Customer,na-uat,bel-na-sfl-milestones-prc-v1-uat,STARTED,0.1,2023-02-16 10:38:51.715000,873
+Safelite US,na-prod,bel-na-sfl-batchrealestatemgmt-exp-v1-prd,STARTED,0.1,2023-01-28 09:18:57.676000,150
+Customer,na-uat,bel-na-sfl-esl-updates-sys-v1-uat,STARTED,0.1,2023-02-08 16:10:54.836000,0
+Safelite US,na-prod,bel-na-sfl-oms-sys-v1-prd,UNDEPLOYED,1.0,2023-01-28 09:29:55.703000,0
+Customer,na-uat,bel-na-sfl-esl-payments-sys-v1-uat,STARTED,0.1,2023-01-19 15:57:10.222000,8
+Safelite US,na-prod,bel-na-sfl-sqs-sys-v1-prd,STARTED,0.4,2023-01-28 09:40:16.794000,45512
+Customer,na-uat,bel-na-sfl-subscriber-payments-prc-v1-uat,STARTED,0.1,2023-02-09 14:06:22.537000,6
+Safelite US,na-prod,bel-na-sfl-highjump-sys-v1-prd,STARTED,0.4,2023-01-28 09:47:03.726000,17422
+Customer,na-uat,bel-na-sfl-esl-qa-updates-sys-v1-uat,STARTED,0.1,2023-02-14 07:15:19.964000,155
+Safelite US,na-prod,bel-na-sfl-salesorder-prc-v1-prd,STARTED,0.4,2023-01-28 09:58:40.518000,0
+Customer,na-uat,bel-na-sfl-qa-workorder-ro-esl-sys-v1-uat,STARTED,0.1,2023-02-14 16:54:00.385000,12
+Customer,na-uat,bel-na-sfl-qa-fsl-orderupdates-prc-v1-uat,STARTED,0.1,2023-02-14 17:16:55.095000,330
+Safelite US,na-prod,bel-na-sfl-us-inventory-prc-v1-prd,STARTED,0.6000000000000001,2023-02-09 09:33:53.216000,51612
+Safelite US,na-prod,bel-na-sfl-oms-prc-v1-prd,UNDEPLOYED,0.8,2023-01-28 10:19:18.919000,0
+Customer,na-uat,bel-na-sfl-qa-sv2-communication-sys-v1-uat,STARTED,0.1,2023-02-14 17:11:54.373000,6
+Safelite US,na-prod,bel-na-sfl-shipment-prc-v1-prd,STARTED,0.4,2023-02-09 09:21:38.478000,6091
+Customer,na-uat,bel-na-gbl-qa-order-prc-v1-uat,STARTED,0.1,2023-02-15 16:06:04.695000,48
+Customer,na-uat,bel-na-sfl-qa-scheduling-esl-sys-v1-uat,STARTED,0.1,2023-02-16 08:38:18.256000,64
+Safelite US,na-prod,bel-na-sfl-purchaseorder-prc-v1-prd,STARTED,0.2,2023-01-28 10:38:55.079000,339
+Customer,na-uat,bel-na-sfl-qa-order-prc-v1-uat,STARTED,0.1,2023-02-16 10:17:04.646000,22
+Safelite US,na-prod,bel-na-sfl-transferorders-prc-v1-prd,STARTED,0.4,2023-01-28 10:52:47.895000,2529
+Customer,na-uat,bel-na-sfl-qa-scheduling-prc-v1-uat,STARTED,0.1,2023-02-15 14:36:08.190000,60
+Safelite US,na-prod,bel-na-sfl-oms-callback-exp-v1-prd,UNDEPLOYED,0.2,2023-01-28 11:00:38.538000,0
+Customer,na-uat,bel-na-sfl-qa-scheduling-exp-v1-uat,STARTED,0.1,2023-02-15 09:00:54.675000,22
+Safelite US,na-prod,bel-na-sfl-warehouse-mgmt-exp-v1-prd,STARTED,0.2,2023-02-09 09:42:17.348000,39583
+Customer,na-uat,bel-na-sfl-qa-krns-shifts-prc-v1-uat,STARTED,0.1,2023-02-15 16:22:08.338000,0
+Safelite US,na-prod,bel-na-sfl-eworkorder-prc-v1-prd,STARTED,0.1,2023-01-28 11:21:59.654000,5709
+Customer,na-uat,bel-na-gbl-sfdc-appointment-sys-v1-uat,STARTED,0.1,2023-02-15 09:56:06.136000,10
+Safelite US,na-prod,bel-na-sfl-eworkorder-exp-v1-prd,STARTED,0.1,2023-01-28 11:26:39.805000,3788
+Customer,na-uat,bel-na-gbl-sfdc-job-work-order-sys-v1-uat,STARTED,0.1,2023-02-15 10:18:23.832000,42
+Safelite US,na-prod,bel-na-sfl-supply-chain-ping-exp-v1-prd,STARTED,0.1,2023-01-28 11:41:43.166000,0
+Customer,na-uat,bel-na-gbl-sfdc-location-sys-v1-uat,STARTED,0.1,2023-02-15 10:28:35.074000,55
+Safelite US,na-prod,bel-na-gbl-gmft-exp-v1-prd,STARTED,0.1,2023-01-28 11:52:06.047000,184
+Customer,na-uat,bel-na-gbl-sfdc-motorist-sys-v1-uat,STARTED,0.1,2023-02-15 10:37:14.912000,54
+Safelite US,na-prod,bel-na-sfl-esri-sys-v1-prd,STARTED,0.1,2023-01-28 12:02:49.855000,788
+Customer,na-uat,bel-na-gbl-sfdc-workers-sys-v1-uat,STARTED,0.1,2023-02-15 13:17:07.962000,75
+Safelite US,na-prod,bel-na-sfl-ccis-exp-v1-prd,STARTED,0.1,2023-01-28 12:09:48.090000,6345
+Customer,na-uat,bel-na-sfl-qa-documents-comm-prc-v1-uat,STARTED,0.1,2023-02-15 14:48:34.033000,132
+Safelite US,na-prod,bel-na-sfl-ccis-rs-sys-v1-prd,STARTED,0.1,2023-01-31 10:13:40,4237
+Customer,na-uat,bel-na-sfl-qa-krns-punches-sys-v1-uat,STARTED,0.1,2023-02-15 15:08:31.764000,2
+Safelite US,na-prod,bel-na-sfl-mrmapiproxyv2-exp-v1-prd,STARTED,0.2,2023-01-28 12:30:54.324000,2770506
+Customer,na-uat,bel-na-sfl-subscriber-punches-prc-v2-uat,STARTED,0.1,2023-02-16 10:44:28.567000,7061
+Safelite US,na-prod,bel-na-sfl-mrmapi-prc-v1-prd,STARTED,0.30000000000000004,2023-01-28 12:41:26.026000,3254490
+Customer,na-uat,bel-na-sfl-qa-techvan-prc-v1-uat,STARTED,0.1,2023-02-16 14:24:34.654000,0
+Safelite US,na-prod,bel-na-sfl-connectivity-v1-prd,STARTED,0.1,2023-01-28 12:48:53.475000,31570
+Customer,na-uat,bel-na-sfl-qa-milestones-prc-v1-uat,STARTED,0.1,2023-02-16 17:19:21.442000,1718
+Safelite US,na-prod,bel-na-sfl-cn-exp-v1-prd,STARTED,0.1,2023-01-28 12:59:57.133000,6051
+Customer,na-uat,bel-na-gbl-sfdc-eventbus-sys-v1-uat,UNDEPLOYED,0.1,2023-02-16 08:34:39.474000,0
+Customer,na-uat,bel-na-sfl-qa-sfscheduling-exp-v1-uat,STARTED,0.1,2023-02-16 08:41:59.806000,2
+Safelite US,na-prod,bel-na-sfl-vehicle-sys-v1-prd,UNDEPLOYED,0.1,2023-01-28 13:00:47.941000,0
+Customer,na-uat,bel-na-gbl-subscriber-location-prc-v1-uat,UNDEPLOYED,0.1,2023-02-16 08:59:29.905000,0
+Safelite US,na-prod,bel-na-sfl-vehicle-exp-v1-prd,UNDEPLOYED,0.1,2023-01-17 15:22:28.168000,0
+Customer,na-uat,bel-na-gbl-subscriber-products-prc-v1-uat,UNDEPLOYED,0.1,2023-02-16 09:38:50.428000,0
+Customer,na-uat,bel-na-sfl-qa-service-tracker-sys-v1-uat,STARTED,0.1,2023-02-16 17:31:43.873000,3
+Customer,na-uat,bel-na-gbl-documents-exp-v1-uat,STARTED,0.1,2023-02-16 12:14:43.048000,0
+Customer,na-uat,bel-na-sfl-qa-service-tracker-prc-v1-uat,STARTED,0.1,2023-02-16 17:28:41.514000,0
+Customer,na-uat,bel-na-sfl-qa-esl-updates-sys-v1-uat,STARTED,0.1,2023-02-16 15:28:23.475000,0
+Customer,na-uat,bel-na-sfl-qa-gqi-prc-v1-uat,STARTED,0.1,2023-02-16 15:38:55.281000,6778
