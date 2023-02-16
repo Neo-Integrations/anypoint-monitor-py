@@ -1,0 +1,32 @@
+2023-02-16 20:50:12,938 - API-USAGE-MINTOR - INFO - Starting ...
+2023-02-16 20:50:12,949 - API-USAGE-MINTOR - INFO - 
+2023-02-16 20:50:13,425 - API-USAGE-MINTOR - ERROR - Exception in main(): 
+Traceback (most recent call last):
+  File "/Users/mhaque/Documents/workspace/python/anypoint-monitor/src/main/py/anypoint-api-usage.py", line 115, in <module>
+    exit(main())
+  File "/Users/mhaque/Documents/workspace/python/anypoint-monitor/src/main/py/anypoint-api-usage.py", line 106, in main
+    bgs = accessmanagement.listBusinessGroups(config)
+  File "/Users/mhaque/Documents/workspace/python/anypoint-monitor/src/main/py/accessmanagement.py", line 11, in listBusinessGroups
+    cmd  = comlib.anypointCliCmdPrefix(config)
+  File "/Users/mhaque/Documents/workspace/python/anypoint-monitor/src/main/py/comlib.py", line 27, in anypointCliCmdPrefix
+    token  = accessmanagement.getToken(config)
+  File "/Users/mhaque/Documents/workspace/python/anypoint-monitor/src/main/py/accessmanagement.py", line 83, in getToken
+    return data.json()
+  File "/usr/local/lib/python3.9/site-packages/requests/models.py", line 899, in json
+    return complexjson.loads(
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2023-02-16 20:51:47,910 - API-USAGE-MINTOR - INFO - Starting ...
+2023-02-16 20:51:47,920 - API-USAGE-MINTOR - INFO - 
+2023-02-16 20:51:56,365 - API-USAGE-MINTOR - INFO - Business Group: Belron
+2023-02-16 20:52:01,073 - API-USAGE-MINTOR - INFO - Organisation=> Belron Environment => Training
+2023-02-16 20:52:06,859 - API-USAGE-MINTOR - ERROR - 
+
+2023-02-16 20:52:06,860 - API-USAGE-MINTOR - ERROR - Decoding JSON has failed
+2023-02-16 20:52:06,860 - API-USAGE-MINTOR - INFO - Organisation=> Belron Environment => Sys
+2023-02-16 20:56:53,217 - API-USAGE-MINTOR - INFO - Organisation=> Belron Environment => QA

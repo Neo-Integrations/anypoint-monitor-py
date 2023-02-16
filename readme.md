@@ -38,4 +38,5 @@ Before you run the application you will need to modify the `resources/cpnfig-dev
 
 ## Running the application
 To run the application, run the followings command from your selected command line tool:
-`python3 main.py`
+- To gather CloudHub application usage, run: `python3 chv1-application-usage.py`
+- To gather API Usage report, run: `python3 anypoint-api-usage.py`

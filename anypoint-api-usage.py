@@ -8,17 +8,7 @@ import loggingconfig
 import re
 from datetime import datetime
 
-logger = loggingconfig.getLogger("APP-USAGE_MINTOR", True)
-
-WORKER_TYPE = {
-    "MICRO": 0.1,
-    "SMALL": 0.2,
-    "MEDIUM": 1,
-    "LARGE": 2,
-    "XLARGE": 4,
-    "XXLARGE": 8,
-    "4XLARGE": 16
-}
+logger = loggingconfig.getLogger("API-USAGE-MINTOR", True)
 
 def validateAndCollectAPILevelMetrics(config, apis, report):
     for api in apis:
@@ -87,46 +77,36 @@ def validateAndCollectAPILevelMetrics(config, apis, report):
             report.append([ config.get('org'), config.get('env'), apiName, apiInstanceId, "NA", "NA", "NA", contractApplication,clientId, contractStatus])
 
 
-def iterateOverEnvironment(config, environments, report, apiUsageReport, appUsage):
+def iterateOverEnvironment(config, environments, report):
     for env in environments:
         envName = env.get('Name')
         logger.info(f"Organisation=> {config['org']} Environment => {envName}")
         config['env'] = envName
         config['envId'] = env.get('Id')
+        apis = apimanager.listAPIs(config)
+        validateAndCollectAPILevelMetrics(config, apis, report)
 
-        apps = chmanageapp.lisAppsV2(config)
-        for app in apps:
-            appName = app['domain']
-            fullDomain = app['fullDomain']
-            domain = app['domain']
-            numberOfWorker = app['workers']
-            key = app['workerType'].upper()
-            totalVCores = WORKER_TYPE[key] * numberOfWorker
-            usage = chmanageapp.getMuleMessageCount(config, fullDomain)
-            timestamp = app['lastUpdateTime'] / 1000
-            dateObj = datetime.fromtimestamp(timestamp)
-            appUsage.append([ config['org'], config['env'], domain, app['status'], totalVCores, dateObj, usage])
 
-def iterateOverOrganisation(config, bgs, appUsage):
+def iterateOverOrganisation(config, bgs, report):
     for bg in bgs:
         orgName = bg.get('Name')
         logger.info(f"Business Group: {orgName}")
         config['org'] = bg.get('Name')
         config['orgId'] = bg.get('Id')
         environments = accessmanagement.listEnvironments(config)
-        iterateOverEnvironment(config, environments, appUsage)
+        iterateOverEnvironment(config, environments, report)
 
 
 def main():
-    appUsage = []
+    report = []
     logger.info("Starting ...")
 
     config = comlib.authConfig()
     config['logger'] = logger
     bgs = accessmanagement.listBusinessGroups(config)
 
-    iterateOverOrganisation(config, bgs, appUsage)
-    csvhandler.writeAppUsageReport(config, appUsage)
+    iterateOverOrganisation(config, bgs, report)
+    csvhandler.writeApiValidationReport(config, report)
 
     logger.info("Ending ...")
 
