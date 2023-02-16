@@ -20,10 +20,6 @@ WORKER_TYPE = {
     "4XLARGE": 16
 }
 
-# export ANYPOINT_CLIENT_ID="fb2bf4ede6294c248cb54f429143e30c"
-# export ANYPOINT_CLIENT_SECRET="18ef9764D4CC428590FfE657c50Bfa79"
-# export ANYPOINT_REFRESH_TOKEN="43846673-8339-49e5-bb11-a8ad1e31e472"
-
 def validateAndCollectAPILevelMetrics(config, apis, report):
     for api in apis:
         apiName = api.get('Asset ID')
