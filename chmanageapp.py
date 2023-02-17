@@ -2,9 +2,6 @@ import subprocess
 import comlib
 import json
 import requests
-import accessmanagement
-import http
-import http.client as http_client
 
 def queryApplicationDetails(config, appName):
     cmd  = comlib.anypointCliCmdPrefix(config)
@@ -65,31 +62,36 @@ def lisAppsV2(config):
 def getMuleMessageCount(config, fullDomain):
     logger = config['logger']
     headers = {}
-
-    getInfluxDBUri(config)
-
-
-    params = 'db=%22' + config['influxdbDatabase'][1:-1] + '%22&q=SELECT%20sum(%22messageCount%22)%20FROM%20%22app_stats%22%20WHERE%20(%22org_id%22%20%3D%20\'' + config['orgId'] + '\'%20AND%20%22env_id%22%20%3D%20\'' + config['envId'] + '\'%20AND%20%22app_id%22%20%3D%20\'' + fullDomain + '\')%20AND%20time%20%3E%3D%20now()%20-%2030d%20GROUP%20BY%20time(30d)%2C%20%22app_id%22%20fill(0)%20tz(\'Europe%2FLondon\')&epoch=ms'
-
+    params = 'db=%22' + config['influxdbDatabas'][1:-1] + '%22&q=SELECT%20sum(%22messageCount%22)%20FROM%20%22app_stats%22%20WHERE%20(%22org_id%22%20%3D%20\'' + config['orgId'] + '\'%20AND%20%22env_id%22%20%3D%20\'' + config['envId'] + '\'%20AND%20%22app_id%22%20%3D%20\'' + fullDomain + '\')%20AND%20time%20%3E%3D%20now()%20-%2090d%20GROUP%20BY%20time(5d)%2C%20%22app_id%22%20fill(0)%20tz(\'Europe%2FLondon\')&epoch=ms'
     url = 'https://anypoint.mulesoft.com/monitoring/api/visualizer/api/datasources/proxy/'+ str(config['influxdbId']) +'/query?' + params
     headers["Authorization"] = "Bearer " + config['access_token']['access_token']
 
     usage = 0
+    values ={}
     try:
         response = requests.get(url, headers=headers)
         payload = response.json()
-
         if payload['results']:
             for eachResult in payload['results']:
                 if eachResult.get('series'):
                     for eachSeries in eachResult['series']:
                         if eachSeries.get('values'):
                             for eachValue in eachSeries['values']:
+                                values[eachValue[0]] = eachValue[1]
                                 usage = usage + eachValue[1]
     except Exception:
         logger.exception("Exception while getting the applications")
+    
+    returnPayload = str(usage) + ":"
+    if len(values) > 0:
+        keys = list(values.keys())
+        keys.sort(reverse=True)
+        for key in keys:
+            if values[key] > 0:
+               returnPayload = returnPayload + str(key)
+               break
 
-    return usage
+    return returnPayload
 
 def getInfluxDBUri(config):
     if config.get('influxdbId'):
@@ -108,7 +110,7 @@ def getInfluxDBUri(config):
             payload = response.json()
             
             config['influxdbId'] = payload['Settings']['datasources']['influxdb']['id']
-            config['influxdbDatabase'] = payload['Settings']['datasources']['influxdb']['database']
+            config['influxdbDatabas'] = payload['Settings']['datasources']['influxdb']['database']
             
         except Exception:
             logger.exception("Exception while querying influxdb settings")

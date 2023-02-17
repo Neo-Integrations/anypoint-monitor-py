@@ -27,28 +27,38 @@ def iterateOverEnvironment(config, environments, appUsage):
             key = app['workerType'].upper()
             totalVCores = comlib.CLOUDHUB_V1_WORKER_TYPE[key] * numberOfWorker
             usage = chmanageapp.getMuleMessageCount(config, fullDomain)
-            timestamp = app['lastUpdateTime'] / 1000
-            dateObj = datetime.fromtimestamp(timestamp)
-            appUsage.append([ config['org'], config['env'], domain, app['status'], totalVCores, dateObj, usage])
+            usages = usage.split(":")
+            lastUsedTimeStamp = None
+            if usages[1]:
+                temp = int(usages[1]) / 1000
+                lastUsedTimeStamp = datetime.fromtimestamp(temp)
+
+            lastUpdated = None;
+            if app['lastUpdateTime']:
+                temp = app['lastUpdateTime'] / 1000
+                lastUpdated = datetime.fromtimestamp(temp)
+
+            appUsage.append([ config['org'], config['env'], domain, app['status'], totalVCores, lastUpdated, lastUsedTimeStamp ,usages[0]])
             
 
 def iterateOverOrganisation(config, bgs, appUsage):
     threads = []
+    chmanageapp.getInfluxDBUri(config)
     for bg in bgs:
-        thread = Thread(target=task, args=(config, bg, appUsage))
+        newConfig = config.copy()
+        thread = Thread(target=task, args=(newConfig, bg, appUsage))
         threads.append(thread)
         thread.start()
     for thread in threads:
         thread.join()
 
 def task(config, bg, appUsage):
-    newConfig = config.copy()
     orgName = bg.get('Name')
     logger.info(f"Business Group: {orgName}")
-    newConfig['org'] = bg.get('Name')
-    newConfig['orgId'] = bg.get('Id')
-    environments = accessmanagement.listEnvironments(newConfig)
-    iterateOverEnvironment(newConfig, environments, appUsage)
+    config['org'] = bg.get('Name')
+    config['orgId'] = bg.get('Id')
+    environments = accessmanagement.listEnvironments(config)
+    iterateOverEnvironment(config, environments, appUsage)
 
 
 def main():
