@@ -8,47 +8,49 @@ import loggingconfig
 import re
 from datetime import datetime
 from threading import Thread
+from datetime import datetime, timedelta
+import urllib.parse
 
-logger = loggingconfig.getLogger("CLOUDHUB-V1-APP-USAGE", True)
+logger = loggingconfig.getLogger("On-PREM-APP-USAGE", True)
 
 def iterateOverEnvironment(config, environments, appUsage):
+
+    now = datetime.now().strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] + "Z"
+    toDate = urllib.parse.quote(now)
+
+    fifteenDaysBack = datetime.now() - timedelta(days=14)
+    fifteenDaysBackDate = fifteenDaysBack.strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] + "Z"
+    fromDate = urllib.parse.quote(fifteenDaysBackDate)
+
     for env in environments:
         envName = env.get('Name')
         logger.info(f"Organisation=> {config['org']} Environment => {envName}")
         config['env'] = envName
         config['envId'] = env.get('Id')
+        apps = chmanageapp.listAppsFromOnPrem(config)
+        for app in apps.get('data'):
+            appId = app["id"]
+            targetServerName = app["target"]["name"]
+            appName = app["artifact"]["name"]
 
-        apps = chmanageapp.listAppsFromCloudHub(config)
-        for app in apps:
-            appName = app.get('domain')
-            fullDomain = app.get('fullDomain')
-            domain = app.get('domain')
-            numberOfWorker = app.get('workers')
-            key = app['workerType'].upper()
-            totalVCores = comlib.CLOUDHUB_V1_WORKER_TYPE[key] * numberOfWorker
-            usage = chmanageapp.getMuleMessageCount(config, fullDomain)
-            usages = usage.split(":")
-            lastUsedTimeStamp = None
-            if usages[1]:
-                temp = int(usages[1]) / 1000
-                lastUsedTimeStamp = datetime.fromtimestamp(temp)
+            usage = chmanageapp.getOnPremAppUsage(config, appId, fromDate, toDate)
 
-            lastUpdated = None;
-            if app['lastUpdateTime']:
-                temp = app['lastUpdateTime'] / 1000
-                lastUpdated = datetime.fromtimestamp(temp)
+            temp = int(app["artifact"]["lastUpdateTime"]) / 1000
+            lastUpdateTime = datetime.fromtimestamp(temp)
 
-            appUsage.append([ config['org'], config['env'], domain, app['status'], totalVCores, lastUpdated, lastUsedTimeStamp ,usages[0]])
+            appUsage.append([config['org'], config['env'], targetServerName, appName, app['lastReportedStatus'], lastUpdateTime, usage])
             
 
 def iterateOverOrganisation(config, bgs, appUsage):
     threads = []
     chmanageapp.getInfluxDBUri(config)
     for bg in bgs:
-        newConfig = config.copy()
-        thread = Thread(target=task, args=(newConfig, bg, appUsage))
-        threads.append(thread)
-        thread.start()
+        if bg.get('Name').upper() == "BELRON":
+            newConfig = config.copy()
+            thread = Thread(target=task, args=(newConfig, bg, appUsage))
+            threads.append(thread)
+            thread.start()
+            break
     for thread in threads:
         thread.join()
 
@@ -70,7 +72,7 @@ def main():
     bgs = accessmanagement.listBusinessGroups(config)
 
     iterateOverOrganisation(config, bgs, appUsage)
-    csvhandler.writeAppUsageReport(config, appUsage)
+    csvhandler.writeOnPremAppUsageReport(config, appUsage)
     logger.info("Ending ...")
 
     return 0

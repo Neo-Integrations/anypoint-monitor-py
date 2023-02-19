@@ -3,6 +3,8 @@ import comlib
 import json
 import requests
 
+
+
 def queryApplicationDetails(config, appName):
     cmd  = comlib.anypointCliCmdPrefix(config)
     cmd.append("runtime-mgr")
@@ -41,11 +43,29 @@ def lisApps(config):
     
     return appJson
 
-def lisAppsV2(config):
+def listAppsFromCloudHub(config):
     logger = config['logger']
     headers = {}
 
     url = 'https://anypoint.mulesoft.com/cloudhub/api/applications'
+    headers["Authorization"] = "Bearer " + config['access_token']['access_token']
+    headers["X-ANYPNT-ENV-ID"] = config['envId']
+    headers["X-ANYPNT-ORG-ID"] = config['orgId']
+
+    payload = {}
+    try:
+        response = requests.get(url, headers=headers)
+        payload = response.json()
+    except Exception:
+        logger.exception("Exception while getting the applications")
+
+    return payload
+
+def listAppsFromOnPrem(config):
+    logger = config['logger']
+    headers = {}
+
+    url = 'https://anypoint.mulesoft.com/armui/api/v1/applications'
     headers["Authorization"] = "Bearer " + config['access_token']['access_token']
     headers["X-ANYPNT-ENV-ID"] = config['envId']
     headers["X-ANYPNT-ORG-ID"] = config['orgId']
@@ -114,3 +134,31 @@ def getInfluxDBUri(config):
             
         except Exception:
             logger.exception("Exception while querying influxdb settings")
+
+def getOnPremAppUsage(config, appId, fromDate, toDate):
+
+    logger = config['logger']
+    headers = {}
+
+    url = 'https://anypoint.mulesoft.com/monitoring/query/api/v1/organizations/'+ config['orgId'] +'/environments/' + config['envId'] + '/applications?from='+ fromDate +'&to=' + toDate + '&detailed=true'
+    headers["Authorization"] = "Bearer " + config['access_token']['access_token']
+    headers["content-type"] = "application/json"
+
+    dictPayload = {
+        "ids": [appId]
+    }
+
+    usage = 0
+    try:
+        response = requests.post(url, data=json.dumps(dictPayload), headers=headers)
+        payload = response.json()
+        
+        for app in payload.get('applications'):
+            if app.get('metrics') and app['metrics'].get('message-count') and app['metrics']['message-count'].get('aggregate'):
+                usage = usage + app['metrics']['message-count']['aggregate']['sum']
+                
+        
+    except Exception:
+        logger.exception("Exception while querying influxdb settings")
+    
+    return usage

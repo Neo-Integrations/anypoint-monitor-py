@@ -48,7 +48,7 @@ def authConfig():
 
     logger = loggingconfig.getLogger("AUTH-CONFIG", True)
 
-    with open('../resources/config-dev.yaml', 'r') as f:
+    with open('resources/config-dev.yaml', 'r') as f:
         cfg = yaml.load(f, Loader=yaml.SafeLoader)
 
     authStrategy = cfg["auth"]["strategy"]

@@ -29,3 +29,13 @@ def writeAppUsageReport(config, data):
         writer.writerow(headerFields)
         for each in data:
             writer.writerow(each)
+
+def writeOnPremAppUsageReport(config, data):
+    cfg = config['yamlCfg']
+    headerFields = cfg['report']['appUsageOnPrem']['header']['fields']
+
+    with open(cfg['report']['appUsageOnPrem']['path'], 'w', encoding='UTF8') as f:
+        writer = csv.writer(f)
+        writer.writerow(headerFields)
+        for each in data:
+            writer.writerow(each)

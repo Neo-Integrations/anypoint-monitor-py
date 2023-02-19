@@ -1,0 +1,59 @@
+auth:
+  #strategy: "userPassword"
+  #strategy: "refreshToken"
+  strategy: "connectedApp"
+log:
+  formatter: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  filePath: "application.log"
+  clevel: "INFO"
+  flevel: "INFO"
+report:
+  appUsageOnPrem:
+    duration: 1
+    path: "app-usage-report-on-prem.csv"
+    header:
+      fields:
+        - "Organisation"
+        - "Environment"
+        - "Target Server Group Name"
+        - "Application Name"
+        - "Last Reported Status"
+        - "UpTime"
+        - "Mule Messages in last 2 weeks"
+  appUsage:
+    duration: 1
+    path: "app-usage-report.csv"
+    header:
+      fields:
+        - "Organisation"
+        - "Environment"
+        - "Application"
+        - "Status"
+        - "vCore Usage"
+        - "Last Updated"
+        - "Last Used"
+        - "Mule Message in last 30 days"
+  apiUsage:
+    duration: 1
+    path: "api-usage-report.csv"
+    header:
+      fields:
+        - "Organisation"
+        - "Environment"
+        - "ClientId"
+        - "Client Name"
+        - "Usage Count"
+  validation:
+    path: "api-validation-report.csv"
+    header:
+      fields:
+        - "Organisation"
+        - "Environment"
+        - "API Name"
+        - "API Instance Id"
+        - "Policy Name"
+        - "SLA Tier"
+        - "Manual"
+        - "Contract Application Name"
+        - "Contact Client Id"
+        - Status
