@@ -2,7 +2,7 @@ import logging
 import yaml
 
 def getLogger(loggerName, createFile=False):
-        with open('../resources/config-dev.yaml', 'r') as f:
+        with open('./resources/config-dev.yaml', 'r') as f:
                 cfg = yaml.load(f, Loader=yaml.SafeLoader)
         
         consoleLongLevel = logging._nameToLevel[cfg["log"]["flevel"]]
