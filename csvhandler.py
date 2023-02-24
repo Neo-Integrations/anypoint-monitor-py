@@ -39,3 +39,14 @@ def writeOnPremAppUsageReport(config, data):
         writer.writerow(headerFields)
         for each in data:
             writer.writerow(each)
+
+
+def writeEnableMonitoringReport(config, data):
+    cfg = config['yamlCfg']
+    headerFields = cfg['report']['enableMonitoring']['header']['fields']
+
+    with open(cfg['report']['enableMonitoring']['path'], 'w', encoding='UTF8') as f:
+        writer = csv.writer(f)
+        writer.writerow(headerFields)
+        for each in data:
+            writer.writerow(each)

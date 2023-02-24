@@ -8,6 +8,14 @@ log:
   clevel: "INFO"
   flevel: "INFO"
 report:
+  enableMonitoring:
+    duration: 1
+    path: "enable-monitoring-report.csv"
+    header:
+      fields:
+        - "Organisation"
+        - "Environment"
+        - "Application Name"
   appUsageOnPrem:
     duration: 1
     path: "app-usage-report-on-prem.csv"

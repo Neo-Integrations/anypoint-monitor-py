@@ -20,7 +20,6 @@ def iterateOverEnvironment(config, environments, appUsage):
 
         apps = chmanageapp.listAppsFromCloudHub(config)
         for app in apps:
-            appName = app.get('domain')
             fullDomain = app.get('fullDomain')
             domain = app.get('domain')
             numberOfWorker = app.get('workers')

@@ -162,3 +162,35 @@ def getOnPremAppUsage(config, appId, fromDate, toDate):
         logger.exception("Exception while querying influxdb settings")
     
     return usage
+
+
+def updateApplicationProperties(config, appName, properties):
+
+    logger = config['logger']
+    orgId = config['orgId']
+    envId = config['envId']
+
+    headers = {}
+
+    url = 'https://anypoint.mulesoft.com/monitoring/api/v2/settings/cloudhub/organizations/' + orgId +  '/environments/' + envId + '/applications/' + appName
+
+    headers["Authorization"] = "Bearer " + config['access_token']['access_token']
+    headers["content-type"] = "application/json"
+
+    properties['anypoint.platform.config.analytics.agent.enabled'] = "true"
+
+    dictPayload = {
+        "applicationId": "",
+        "applicationName": appName,
+        "properties": properties
+    }
+
+    try:
+        response = requests.put(url, data=json.dumps(dictPayload), headers=headers)
+        payload = response.json()
+        
+    except Exception:
+        logger.exception("Exception while querying influxdb settings")
+        return False
+    
+    return True
